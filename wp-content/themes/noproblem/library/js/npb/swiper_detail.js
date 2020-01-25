@@ -3,15 +3,14 @@ var galleryThumbs = new Swiper(".gallery-thumbs", {
   slidesPerView: 4,
   freeMode: true,
   watchSlidesVisibility: true,
-  watchSlidesProgress: true
+  watchSlidesProgress: true,
+  allowTouchMove: false
 });
 var galleryTop = new Swiper(".gallery-top", {
-  slidesPerView: 'auto',
+  slidesPerView: "auto",
   spaceBetween: 3,
   thumbs: {
     swiper: galleryThumbs
   },
   grabCursor: true
 });
-
-
