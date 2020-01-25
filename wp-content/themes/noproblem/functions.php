@@ -182,6 +182,8 @@ function bavotasan_add_js() {
 	wp_enqueue_script( 'swiper_detail', BAVOTASAN_THEME_URL .'/library/js/npb/swiper_detail.js',  null , null , true );
 	wp_enqueue_script( 'size-table', BAVOTASAN_THEME_URL .'/library/js/npb/size-table.js', array( 'jquery' ), '3.4.1', true );
 	wp_enqueue_script( 'color-picker', BAVOTASAN_THEME_URL .'/library/js/npb/color-picker.js', array( 'jquery' ), '3.4.1', true );
+	wp_enqueue_script( 'lazyload', BAVOTASAN_THEME_URL .'/library/js/npb/lazyload.min.js', null, null, true );
+	wp_enqueue_script( 'lazy', BAVOTASAN_THEME_URL .'/library/js/npb/lazy.js', null, null, true );
 
 	
 
