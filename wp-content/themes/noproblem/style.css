@@ -191,7 +191,6 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
   font-size: 1em;
 }
 
@@ -399,7 +398,6 @@ html {
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857;
   color: #333333;
@@ -946,9 +944,7 @@ address {
 code,
 kbd,
 pre,
-samp {
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-}
+samp {}
 
 code {
   padding: 2px 4px;
@@ -2012,10 +2008,6 @@ caption {
   padding-top: 8px;
   padding-bottom: 8px;
   color: #777777;
-  text-align: left;
-}
-
-th {
   text-align: left;
 }
 
@@ -5667,7 +5659,6 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -5965,7 +5956,6 @@ button.close {
   width: 20px;
   height: 20px;
   line-height: 1;
-  font-family: serif;
 }
 
 .carousel-control .icon-prev:before {
@@ -6387,31 +6377,8 @@ button.close {
 body.basic {
   font-size: 16px;
   color: #282828;
-  font-family: Open Sans, sans-serif;
 }
 
-.basic h1,
-.basic h2,
-.basic h3,
-.basic h4,
-.basic h5,
-.basic h6 {
-  color: #282828;
-  font-family: Raleway, sans-serif;
-}
-
-.basic h1 a,
-.basic h2 a,
-.basic h3 a,
-.basic h4 a,
-.basic h5 a,
-.basic h6 a {
-  color: #282828;
-}
-
-.basic a {
-  color: #428BCA;
-}
 
 .basic a.btn,
 .basic a.comment-reply-link,
@@ -6450,17 +6417,7 @@ table {
   background: #fff;
 }
 
-table td,
-table th {
-  padding: 8px;
-  border: 1px solid #ddd;
-  text-align: left;
-}
 
-table th {
-  background: #eee;
-  font-weight: bold;
-}
 
 table caption {
   padding: 1em 0;
@@ -6581,9 +6538,7 @@ textarea {
   width: 100%;
 }
 
-.basic #site-title a {
-  font-family: 'Megrim', cursive;
-}
+.basic #site-title a {}
 
 .only-on-home.no-fittext .basic #site-title a {
   font-size: 120px;
@@ -8520,7 +8475,177 @@ pre {
   display: block;
 }
 
-/* Static pages --------------------------------------------------------------------------*/
+/* Noproblem Element --------------------------------------------------------------------------*/
+
+/* Typo --------------------------------------------------------------------------*/
+
+body {
+  line-height: 1.7;
+}
+
+body:lang(en) {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+*:lang(th) {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+}
+
+.heading-primary {
+  color: #204287;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.heading-primary:lang(th) {
+  color: #204287;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.heading-secondary {
+  color: #5C5C5C;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.header {
+  text-align: center;
+  font-weight: 900;
+}
+
+.graybar {
+  height: 5px;
+}
+
+.graybar-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .graybar-left {
+    display: none;
+  }
+}
+
+.graybar-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .graybar-right {
+    display: none;
+  }
+}
+
+.graybar-middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.graybar-middle h2 {
+  margin: 0;
+}
+
+.story-header {
+  color: #204287;
+  font-weight: 500;
+}
+
+.story-para {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #485759;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+.pro-con {
+  padding-left: 3rem;
+}
+
+
+
+/* class btn ------------------------------------------------------------------------------*/
+
+
+.btn,
+.btn:link,
+.btn:visited {
+  font-size: 1.32rem;
+  padding: 0.2rem 4rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn--white {
+  color: #FFFFFF;
+  background: #5C5C5C;
+}
+
+.btn--gray,
+.btn--gray:link,
+.btn--gray:visited {
+  background-color: #5C5C5C;
+  color: #FFFFFF;
+  font-size: 1.3rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+.btn-shadow {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.btn-shadow:hover {
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-shadow:active {
+  -webkit-transform: translateY(-1px);
+  transform: translateY(-1px);
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
 
 .underNav {
   margin-top: 5rem;
@@ -8580,6 +8705,7 @@ pre {
   justify-content: center;
   -ms-flex-line-pack: start;
   align-content: flex-start;
+  cursor: default;
 }
 
 .detail-thumb__slide {
@@ -8589,6 +8715,8 @@ pre {
 
 .detail-thumb__slide img {
   width: 90px;
+  cursor: pointer;
+
 }
 
 @media only screen and (min-width: 156.25em) {
@@ -8820,54 +8948,4 @@ pre {
 
 .item__color-picker:first-child {
   border: 1px solid black;
-}
-
-/* class btn ------------------------------------------------------------------------------*/
-
-
-.btn,
-.btn:link,
-.btn:visited {
-  font-size: 1.32rem;
-  padding: 0.2rem 4rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  border: none;
-  cursor: pointer;
-  display: inline-block;
-}
-
-.btn--white {
-  color: #FFFFFF;
-  background: #5C5C5C;
-}
-
-.btn--gray,
-.btn--gray:link,
-.btn--gray:visited {
-  background-color: #5C5C5C;
-  color: #FFFFFF;
-  font-size: 1.3rem;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-weight: bold;
-}
-
-.btn-shadow {
-  -webkit-transition: all .2s;
-  transition: all .2s;
-}
-
-.btn-shadow:hover {
-  -webkit-transform: translateY(-3px);
-  transform: translateY(-3px);
-  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-.btn-shadow:active {
-  -webkit-transform: translateY(-1px);
-  transform: translateY(-1px);
-  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }

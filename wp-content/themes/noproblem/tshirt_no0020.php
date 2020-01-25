@@ -1,7 +1,7 @@
 <?php
 /**
-* Template Name: T-shirt page
-* Description: This is T-shirt page
+* Template Name: T-SHIRT NO.0020 page
+* Description: This is T-SHIRT NO.0020 page
 */ 
 get_header();
 ?>
@@ -60,7 +60,7 @@ get_header();
             <button class="btn--gray detail-description__gender-btn">WOMEN</button>
           </div>
           <div class="detail-description__text">
-            <h2 class="heading-primary ">t-shirt</h2>
+            <h2 class="heading-primary ">T-SHIRT NO.0020</h2>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor,
               nemo voluptatem molestias perferendis eum rerum
@@ -298,5 +298,10 @@ get_header();
           </div>
         </div>
       </section>
+
+
+
+
+
 
 <?php get_footer(); ?>
