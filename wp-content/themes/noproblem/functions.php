@@ -179,8 +179,10 @@ function bavotasan_add_js() {
 	//script for noproblem
 	wp_enqueue_script( 'socialmedia_bar', BAVOTASAN_THEME_URL .'/library/js/npb/socialmedia_bar.js', array( 'jquery' ), '3.4.1', true );
 	wp_enqueue_script( 'swiper', BAVOTASAN_THEME_URL .'/library/js/npb/swiper.min.js',  null, '5.2.1', true );
-	wp_enqueue_script( 'swiper_detail', BAVOTASAN_THEME_URL .'/library/js/npb/swiper_detail.js',  null , null , true );
+	wp_enqueue_script( 'swiper_banner', BAVOTASAN_THEME_URL .'/library/js/npb/swiper_banner.js',  null , null , true );
+	wp_enqueue_script( 'swiper_project', BAVOTASAN_THEME_URL .'/library/js/npb/swiper_project.js',  null , null , true );
 	wp_enqueue_script( 'swiper_product', BAVOTASAN_THEME_URL .'/library/js/npb/swiper_product.js',  null , null , true );
+	wp_enqueue_script( 'swiper_detail', BAVOTASAN_THEME_URL .'/library/js/npb/swiper_detail.js',  null , null , true );
 	wp_enqueue_script( 'size-table', BAVOTASAN_THEME_URL .'/library/js/npb/size-table.js', array( 'jquery' ), '3.4.1', true );
 	wp_enqueue_script( 'color-picker', BAVOTASAN_THEME_URL .'/library/js/npb/color-picker.js', array( 'jquery' ), '3.4.1', true );
 	wp_enqueue_script( 'lazyload', BAVOTASAN_THEME_URL .'/library/js/npb/lazyload.min.js', null, null, true );

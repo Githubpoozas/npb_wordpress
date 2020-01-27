@@ -8691,13 +8691,127 @@ body:lang(en) {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
+.more-button {
+  text-align: center;
+}
 
+.more-button-btn {
+  font-size: 1.5rem !important;
+}
 
 .underNav {
   margin-top: 5rem;
 }
 
-/* Swiper Prodcuts ------------------------------------------------------------------------*/
+/* Swiper slide1 Banner -------------------------------------------------------------------*/
+
+.swiper-container__slide1 {
+  width: 95%;
+}
+
+.swiper-wrapper__slide1 {
+  padding-left: initial;
+  margin: 0;
+}
+
+.swiper-slide__slide1 {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  width: 80%;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.swiper-slide__slide1 img {
+  height: auto;
+  width: 100%;
+}
+
+/* Swiper slide2 Project -----------------------------------------------------------------*/
+
+
+.swiper-container__slide2 {
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+}
+
+@media only screen and (min-width: 156.25em) {
+  .swiper-container__slide2 {
+    height: 550px;
+  }
+}
+
+@media only screen and (max-width: 75em) {
+  .swiper-container__slide2 {
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .swiper-container__slide2 {
+    height: 140px;
+  }
+}
+
+.swiper-slide__slide2 {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  shape-outside: circle(50% at 50% 50%);
+  -webkit-clip-path: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
+  height: 48%;
+}
+
+.swiper-slide__slide2__img {
+  width: 150px;
+  height: 150px;
+  border-radius: 90%;
+}
+
+@media only screen and (min-width: 156.25em) {
+  .swiper-slide__slide2__img {
+    width: 240px;
+    height: 240px;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .swiper-slide__slide2__img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .swiper-slide__slide2__button-right, .swiper-slide__slide2__button-left {
+    display: none;
+  }
+}
+
+
+
+/* Swiper slide3 Prodcuts -----------------------------------------------------------------*/
 
 
 .section-product__header {
@@ -8825,7 +8939,7 @@ body:lang(en) {
 }
 
 
-/* Swiper Detail --------------------------------------------------------------------------*/
+/* Swiper slide4 Detail -------------------------------------------------------------------*/
 
 
 .item__section-detail {
