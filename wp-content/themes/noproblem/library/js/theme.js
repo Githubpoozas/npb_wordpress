@@ -45,12 +45,31 @@
 		} );
 	}
 
-	$( '#site-navigation' ).find( '.dropdown-toggle' ).click( function(e) {
+	// $( '#site-navigation' ).find( '.dropdown-toggle' ).click( function(e) {
+	// 	e.preventDefault();
+
+	// 	$( '#site-navigation' ).find( 'li' ).not( $(this).parents() ).removeClass( 'open' );
+	// 	$(this).parent().toggleClass( 'open' );
+	// } );
+	$( '#site-navigation' ).find( '.dropdown-toggle' ).hover( function(e) {
 		e.preventDefault();
 
 		$( '#site-navigation' ).find( 'li' ).not( $(this).parents() ).removeClass( 'open' );
-		$(this).parent().toggleClass( 'open' );
+		$(this).parent().addClass( 'open' );
+	},function(){
+		$(this).parent().removeClass( 'open' );
 	} );
+	$(".dropdown-menu").hover(function(e){
+		e.preventDefault();
+
+		$(this).parent().addClass( 'open' );
+	},function(){
+		$(this).parent().removeClass( 'open' );
+	} )
+
+
+
+	
 
     // Arc the site title
     if ( 0 != arcade_basic_vars.arc ) {

@@ -4369,10 +4369,17 @@ tbody.collapse.in {
   position: relative;
   display: block;
   padding: 10px 15px;
+  text-decoration: none;
+
 }
 
-.nav>li>a:hover,
+/* .nav>li>a:hover,
 .nav>li>a:focus {
+  text-decoration: none;
+  background-color: #eeeeee;
+} */
+
+.nav>li>a:hover {
   text-decoration: none;
   background-color: #eeeeee;
 }
@@ -4389,11 +4396,14 @@ tbody.collapse.in {
   cursor: not-allowed;
 }
 
+.nav .open,
 .nav .open>a,
 .nav .open>a:hover,
 .nav .open>a:focus {
   background-color: #eeeeee;
   border-color: #337ab7;
+  color: #337ab7;
+
 }
 
 .nav .nav-divider {
@@ -4452,7 +4462,7 @@ tbody.collapse.in {
 .nav-pills>li.active>a,
 .nav-pills>li.active>a:hover,
 .nav-pills>li.active>a:focus {
-  color: #fff;
+  /* color: #fff; */
   background-color: #337ab7;
 }
 
@@ -6786,13 +6796,7 @@ textarea {
   background-color: #444;
 }
 
-.nav .open>a,
-.nav .open>a:hover,
-.nav .open>a:focus {
-  background: none;
-  border: 0;
-  color: #fff;
-}
+
 
 /* =Social Menu
 -------------------------------------------------------------- */
@@ -8804,11 +8808,12 @@ body:lang(en) {
 }
 
 @media only screen and (max-width: 37.5em) {
-  .swiper-slide__slide2__button-right, .swiper-slide__slide2__button-left {
+
+  .swiper-slide__slide2__button-right,
+  .swiper-slide__slide2__button-left {
     display: none;
   }
 }
-
 
 
 /* Swiper slide3 Prodcuts -----------------------------------------------------------------*/
@@ -8845,7 +8850,7 @@ body:lang(en) {
   -ms-flex-align: center;
   align-items: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   margin-bottom: 20px;
 }
 
@@ -8907,12 +8912,15 @@ body:lang(en) {
   font-weight: 400;
 }
 
-.swiper-slide__slide3__button-right, .swiper-slide__slide3__button-left {
+.swiper-slide__slide3__button-right,
+.swiper-slide__slide3__button-left {
   top: 35%;
 }
 
 @media only screen and (max-width: 37.5em) {
-  .swiper-slide__slide3__button-right, .swiper-slide__slide3__button-left {
+
+  .swiper-slide__slide3__button-right,
+  .swiper-slide__slide3__button-left {
     display: none;
   }
 }
@@ -9244,14 +9252,15 @@ body:lang(en) {
 
 /* Technique page ------------------------------------------------------------------------------*/
 
-.row{
-  display:flex;
-  flex-wrap:wrap;
+.row {
+  display: flex;
+  flex-wrap: wrap;
 }
-
 
 .banner img {
   width: 100%;
+  margin-bottom: 15px;
+
 }
 
 .img1 img {
