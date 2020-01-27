@@ -1,4 +1,4 @@
-$(document).ready(function() {
+jQuery(document).ready(function() {
   //slide 3
   var product = new Swiper(".swiper-container__slide3", {
     // allowTouchMove: true,
@@ -23,32 +23,32 @@ $(document).ready(function() {
       prevEl: ".swiper-button-prev"
     }
   });
-  $(".seemore__less").hide();
+  jQuery(".seemore__less").hide();
 
   // var mySwiper = document.querySelector(".swiper-container__slide3").swiper;
 
-  $(".swiper-container__slide3 .seemore").click(function() {
+  jQuery(".swiper-container__slide3 .seemore").click(function() {
 
-    var mySwiper = $(this).parent()[0].swiper;
+    var mySwiper = jQuery(this).parent()[0].swiper;
 
     var windowSize = window.innerWidth;
-    var marginRight = $(this)
+    var marginRight = jQuery(this)
       .parent()
       .find(".swiper-slide__slide3:first-child")
       .css("margin-right");
 
     if (
-      $(this)
+      jQuery(this)
         .parent()
         .find(".swiper-wrapper__slide3")
         .css("flex-wrap") === "nowrap"
     ) {
-      $(this)
+      jQuery(this)
         .parent()
         .find(".swiper-wrapper__slide3")
         .css("flex-wrap", "wrap");
 
-      $(this)
+      jQuery(this)
         .parent()
         .find(".swiper-wrapper__slide3")
         .addClass("slideWrap");
@@ -57,48 +57,48 @@ $(document).ready(function() {
       mySwiper.allowTouchMove = false;
 
       if (windowSize >= 600) {
-        $(this)
+        jQuery(this)
           .parent()
           .find(".swiper-button-next")
           .hide();
-        $(this)
+        jQuery(this)
           .parent()
           .find(".swiper-button-prev")
           .hide();
       }
 
-      $(this)
+      jQuery(this)
       .parent()
       .find(".seemore__more").hide();
-      $(this)
+      jQuery(this)
       .parent()
       .find(".seemore__less").show();
 
 
       if (windowSize >= 900) {
-        $(this)
+        jQuery(this)
           .parent()
           .find(".swiper-slide__slide3:nth-child(3n+0)")
           .css("margin-right", "0");
       } else if (windowSize < 900 && windowSize >= 600) {
-        $(this)
+        jQuery(this)
           .parent()
           .find(".swiper-slide__slide3:nth-child(even)")
           .css("margin-right", "0");
       }
     } else {
-      $(this)
+      jQuery(this)
         .parent()
         .find(".swiper-wrapper__slide3")
         .css("flex-wrap", "nowrap");
-      $(this)
+      jQuery(this)
         .parent()
         .find(".swiper-wrapper__slide3")
         .removeClass("slideWrap");
 
       mySwiper.allowTouchMove = true;
 
-      const element = $(this)
+      const element = jQuery(this)
         .parent()
         .find(".cloth")[0];
       const elementRect = element.getBoundingClientRect();
@@ -107,31 +107,31 @@ $(document).ready(function() {
       window.scrollTo(0, middle);
 
       if (windowSize >= 600) {
-        $(this)
+        jQuery(this)
           .parent()
           .find(".swiper-button-next")
           .show();
-        $(this)
+        jQuery(this)
           .parent()
           .find(".swiper-button-prev")
           .show();
       }
 
-      $(this)
+      jQuery(this)
       .parent()
       .find(".seemore__more").show();
-      $(this)
+      jQuery(this)
       .parent()
       .find(".seemore__less").hide();
 
 
       if (windowSize >= 900) {
-        $(this)
+        jQuery(this)
           .parent()
           .find(".swiper-slide__slide3:nth-child(3n+0)")
           .css("margin-right", marginRight);
       } else if (windowSize < 900 && windowSize >= 600) {
-        $(this)
+        jQuery(this)
           .parent()
           .find(".swiper-slide__slide3:nth-child(even)")
           .css("margin-right", marginRight);
@@ -139,54 +139,32 @@ $(document).ready(function() {
     }
   });
 
-  $(window).resize(function() {
+  jQuery(window).resize(function() {
     var windowSize = window.innerWidth;
 
     if (windowSize >= 900) {
-      $(".slideWrap")
+      jQuery(".slideWrap")
         .find(".swiper-slide__slide3:nth-child(3n+0)")
         .css("margin-right", "0");
     } else if (windowSize < 900 && windowSize >= 600) {
-      $(".slideWrap")
+      jQuery(".slideWrap")
         .find(".swiper-slide__slide3:nth-child(even)")
         .css("margin-right", "0");
     }
   });
 
-  // new script
-  // $(".cloth__img").mouseenter(function() {
-  //   var image = this;
-  //   setTimeout(function() {
-  //     const newImage = $(image)
-  //       .attr("src")
-  //       .replace("_1", "_2");
-  //     $(image).attr("src", newImage);
-  //   }, 450);
-  // });
-
-  // $(".cloth__img").mouseleave(function() {
-  //   var image = this;
-  //   setTimeout(function() {
-  //     const newImage = $(image)
-  //       .attr("src")
-  //       .replace("_2", "_1");
-  //     $(image).attr("src", newImage);
-  //   }, 0);
-  // });
-
-  // old script
-  $(".cloth__img").mouseenter(function() {
-    $(this).attr(
+  jQuery(".cloth__img").mouseenter(function() {
+    jQuery(this).attr(
       "src",
-      $(this)
+      jQuery(this)
         .attr("src")
         .replace("_1", "_2")
     );
   });
-  $(".cloth__img").mouseleave(function() {
-    $(this).attr(
+  jQuery(".cloth__img").mouseleave(function() {
+    jQuery(this).attr(
       "src",
-      $(this)
+      jQuery(this)
         .attr("src")
         .replace("_2", "_1")
     );
