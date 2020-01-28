@@ -177,6 +177,7 @@ function bavotasan_add_js() {
 
 
 	//script for noproblem
+	wp_enqueue_script( 'navbar', BAVOTASAN_THEME_URL .'/library/js/npb/navbar.js',  null , null , true );
 	wp_enqueue_script( 'socialmedia_bar', BAVOTASAN_THEME_URL .'/library/js/npb/socialmedia_bar.js', array( 'jquery' ), '3.4.1', true );
 	wp_enqueue_script( 'swiper', BAVOTASAN_THEME_URL .'/library/js/npb/swiper.min.js',  null, '5.2.1', true );
 	wp_enqueue_script( 'swiper_banner', BAVOTASAN_THEME_URL .'/library/js/npb/swiper_banner.js',  null , null , true );

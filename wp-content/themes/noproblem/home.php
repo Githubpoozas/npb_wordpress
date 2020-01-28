@@ -3,6 +3,14 @@
 * Template Name: Home page
 * Description: This is Home page
 */ 
+?>
+
+<!-- header banner -->
+<header class="header__banner">
+  <img src="../wp-content/themes/noproblem/library/images/home/d1.1-01.jpg" alt="" />
+</header>
+
+<?php
 get_header();
 ?>
 
@@ -560,7 +568,7 @@ get_header();
           <a href="#">
             <img
               src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-              data-src="../wp-content/themes/noproblem/library/images/home/banner_2.svg"
+              data-src="../wp-content/themes/noproblem/library/images/home/7-8-07-min.jpg"
               alt=""
               class="banner__img lazy"
             />
@@ -568,7 +576,7 @@ get_header();
           <a href="#">
             <img
               src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-              data-src="../wp-content/themes/noproblem/library/images/home/banner_3.svg"
+              data-src="../wp-content/themes/noproblem/library/images/home/7-8_Artboard_8-min.jpg"
               alt=""
               class="banner__img lazy"
             />

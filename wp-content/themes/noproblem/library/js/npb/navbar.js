@@ -1,39 +1,46 @@
 // navbar
 function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
+  var x = document.getElementById("site-navigation");
+  if (x.className === "navbar") {
     x.className += " responsive";
   } else {
-    x.className = "topnav";
+    x.className = "navbar";
   }
 }
 
-var navHeight = $(".topnav").height();
+var navHeight = jQuery(".navbar").height();
 
-if ($(".header__banner").css("height")) {
-  var headerHeight = $(".header__banner").height();
+
+if (jQuery(".header__banner").css("height")) {
+  var headerHeight = jQuery(".header__banner").height();
 } else {
-  var headerHeight = $(".header__bannerGray").height();
+  var headerHeight = jQuery(".header__bannerGray").height();
 }
 
-var prevScrollpos = $(window).scrollTop();
-$(window).scroll(function() {
-  var currentScrollPos = $(window).scrollTop();
+var prevScrollpos = jQuery(window).scrollTop();
+jQuery(window).scroll(function() {
+  var currentScrollPos = jQuery(window).scrollTop();
 
   if (currentScrollPos >= headerHeight) {
-    $(".topnav").addClass("navfix");
-    $(".underNav").addClass("u-margin-under-fix-Nav");
+    jQuery(".navbar").addClass("navfix");
+    jQuery(".underNav").addClass("u-margin-under-fix-Nav");
   }
   if (currentScrollPos < headerHeight) {
-    $(".topnav").removeClass("navfix");
-    $(".underNav").removeClass("u-margin-under-fix-Nav");
+    jQuery(".navbar").removeClass("navfix");
+    jQuery(".underNav").removeClass("u-margin-under-fix-Nav");
   }
 
   if ((headerHeight + navHeight) > currentScrollPos || prevScrollpos > currentScrollPos) {
-    $(".navfix").css("top", "0");
+    jQuery(".navfix").css("top", "0");
   } else {
-    $(".navfix").css("top", "-62px");
+    jQuery(".navfix").css("top", "-62px");
   }
 
   prevScrollpos = currentScrollPos;
 });
+
+if(jQuery('#wpadminbar')){
+  console.log("yes")
+} else{
+  console.log("Noooooooooo!")
+}
