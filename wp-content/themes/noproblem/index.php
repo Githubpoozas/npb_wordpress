@@ -5,18 +5,15 @@
 */ 
 ?>
 
+    <!-- header banner -->
+    <header class="header__banner">
+      <img src="../wp-content/themes/noproblem/library/images/home/d1.1-01.jpg" alt="" />
+    </header>
+
 
 <?php
 get_header();
 ?>
-
-
-    <!-- header banner -->
-    <div class="header__banner">
-      <img src="../wp-content/themes/noproblem/library/images/home/d1.1-01.jpg" alt="" />
-    </div>
-
-
 
     <!-- slide -->
     <section class="home__section-swiper u-margin-bottom-small underNav">

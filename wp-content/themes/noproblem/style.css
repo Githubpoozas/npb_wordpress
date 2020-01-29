@@ -8881,6 +8881,10 @@ body:lang(en) {
     padding-right: 40px;
   }
 }
+.swiper-wrapper__slide3{
+  height:auto;
+}
+
 
 .swiper-slide__slide3 {
   text-align: center;

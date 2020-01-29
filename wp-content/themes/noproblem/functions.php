@@ -175,7 +175,6 @@ function bavotasan_add_js() {
 	wp_enqueue_script( 'arctext', BAVOTASAN_THEME_URL .'/library/js/jquery.arctext.js', array( 'jquery' ), '', true );
 	wp_enqueue_script( 'arcade-basic-script', BAVOTASAN_THEME_URL .'/library/js/theme.js', array( 'bootstrap' ), '', true );
 
-
 	//script for noproblem
 	wp_enqueue_script( 'navbar', BAVOTASAN_THEME_URL .'/library/js/npb/navbar.js',  null , null , true );
 	wp_enqueue_script( 'socialmedia_bar', BAVOTASAN_THEME_URL .'/library/js/npb/socialmedia_bar.js', array( 'jquery' ), '3.4.1', true );
