@@ -27,7 +27,9 @@ $space_class = '';
 	<div id="page">
 
 		<header id="header">
-			<nav id="site-navigation" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<!-- <nav id="site-navigation" class="navbar navbar-inverse navbar-fixed-top" role="navigation"> -->
+			<nav id="site-navigation" class="navbar navbar-inverse" role="navigation">
+
 				<h3 class="sr-only"><?php _e( 'Main menu', 'arcade-basic' ); ?></h3>
 				<a class="sr-only" href="#primary" title="<?php esc_attr_e( 'Skip to content', 'arcade-basic' ); ?>"><?php _e( 'Skip to content', 'arcade-basic' ); ?></a>
 
