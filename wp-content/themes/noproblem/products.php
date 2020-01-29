@@ -858,17 +858,14 @@ get_header();
             <div class="row">
               <div class="col-sm-12 col-md-12">
                 <h2 class="heading-primary ">ns.5000 polo product</h2>
-                <h3 lang="th" class="heading-secondary">สินค้าเสื้อโปโลรหัส ns.5000</h3>
+                <h3 lang="th" class="heading-secondary">สินค้าเสื้อโปโลผู้หญิงรหัส ns.5000</h3>
               </div>
-  
             </div>
           </div>
   
-     
           <!-- Swiper -->
           <div class="swiper-container swiper-container__slide3">
             <div class="swiper-wrapper swiper-wrapper__slide3">
-
               <div class="swiper-slide swiper-slide__slide3">
                 <a href="./polo_mf_female.html">
                 <div class="cloth">
@@ -880,7 +877,7 @@ get_header();
                 </div>
                 <div class="cloth__price">
                   <h2 class="cloth__price-header">polo ns.5000 white</h2>
-                  <p class="cloth__price-description">เสื้อโปโลหญิง รหัส NO 0020 สีขาว</p>
+                  <p class="cloth__price-description">เสื้อโปโลหญิง รหัส NS.5000 สีขาว</p>
                   <p class="cloth__price-tag">199 ฿</p>
                 </div>
               </a>
@@ -897,7 +894,7 @@ get_header();
                 </div>
                 <div class="cloth__price">
                   <h2 class="cloth__price-header">polo ns.5000 yellow topaz</h2>
-                  <p class="cloth__price-description">เสื้อโปโลหญิง รหัส NO 0020 สีเหลือง</p>
+                  <p class="cloth__price-description">เสื้อโปโลหญิง รหัส NS.5000 สีเหลืองบุษราคัม</p>
                   <p class="cloth__price-tag">199 ฿</p>
                 </div>
               </a>
@@ -914,7 +911,7 @@ get_header();
                 </div>
                 <div class="cloth__price">
                   <h2 class="cloth__price-header">polo ns.5000 orange songea</h2>
-                  <p class="cloth__price-description">เสื้อโปโลหญิง รหัส NO 0020 สีส้ม</p>
+                  <p class="cloth__price-description">เสื้อโปโลหญิง รหัส NS.5000 สีส้มซองเจีย</p>
                   <p class="cloth__price-tag">199 ฿</p>
                 </div>
               </a>
@@ -931,7 +928,7 @@ get_header();
                 </div>
                 <div class="cloth__price">
                   <h2 class="cloth__price-header">polo ns.5000 pink diamond</h2>
-                  <p class="cloth__price-description">เสื้อโปโลหญิง รหัส NO 0020 สีชมพู</p>
+                  <p class="cloth__price-description">เสื้อโปโลหญิง รหัส NS.5000 สีบานเย็นไดมอนด์</p>
                   <p class="cloth__price-tag">199 ฿</p>
                 </div>
               </a>
@@ -948,7 +945,7 @@ get_header();
                 </div>
                 <div class="cloth__price">
                   <h2 class="cloth__price-header">polo ns.5000 red garnet</h2>
-                  <p class="cloth__price-description">เสื้อโปโลหญิง รหัส NO 0020 สีแดง</p>
+                  <p class="cloth__price-description">เสื้อโปโลหญิง รหัส NS.5000 สีแดงโกเมน</p>
                   <p class="cloth__price-tag">199 ฿</p>
                 </div>
               </a>
@@ -965,7 +962,7 @@ get_header();
                 </div>
                 <div class="cloth__price">
                   <h2 class="cloth__price-header">polo ns.5000 amethyst</h2>
-                  <p class="cloth__price-description">เสื้อโปโลหญิง รหัส NO 0020 สีม่วง</p>
+                  <p class="cloth__price-description">เสื้อโปโลหญิง รหัส NS.5000 สีม่วงอาเมทิส</p>
                   <p class="cloth__price-tag">199 ฿</p>
                 </div>
               </a>
@@ -982,7 +979,7 @@ get_header();
                 </div>
                 <div class="cloth__price">
                   <h2 class="cloth__price-header">polo ns.5000 blue sapphire</h2>
-                  <p class="cloth__price-description">เสื้อโปโลหญิง รหัส NO 0020 สีน้ำเงิน</p>
+                  <p class="cloth__price-description">เสื้อโปโลหญิง รหัส NS.5000 สีน้ำเงินซัฟไฟร์</p>
                   <p class="cloth__price-tag">199 ฿</p>
                 </div>
               </a>
@@ -999,7 +996,7 @@ get_header();
                 </div>
                 <div class="cloth__price">
                   <h2 class="cloth__price-header">polo ns.5000 green peridot</h2>
-                  <p class="cloth__price-description">เสื้อโปโลหญิง รหัส NO 0020 สีเขียว</p>
+                  <p class="cloth__price-description">เสื้อโปโลหญิง รหัส NS.5000 สีเขียวดำริโดต์</p>
                   <p class="cloth__price-tag">199 ฿</p>
                 </div>
               </a>
@@ -1016,7 +1013,7 @@ get_header();
                 </div>
                 <div class="cloth__price">
                   <h2 class="cloth__price-header">polo ns.5000 blue topaz</h2>
-                  <p class="cloth__price-description">เสื้อโปโลหญิง รหัส NO 0020 สีฟ้า</p>
+                  <p class="cloth__price-description">เสื้อโปโลหญิง รหัส NS.5000 สีฟ้าโทปาส</p>
                   <p class="cloth__price-tag">199 ฿</p>
                 </div>
               </a>
@@ -1033,7 +1030,7 @@ get_header();
                 </div>
                 <div class="cloth__price">
                   <h2 class="cloth__price-header">polo ns.5000 gray melange</h2>
-                  <p class="cloth__price-description">เสื้อโปโลหญิง รหัส NO 0020 สีเทา</p>
+                  <p class="cloth__price-description">เสื้อโปโลหญิง รหัส NS.5000 สีท็อปดราย</p>
                   <p class="cloth__price-tag">199 ฿</p>
                 </div>
               </a>
@@ -1050,7 +1047,7 @@ get_header();
                 </div>
                 <div class="cloth__price">
                   <h2 class="cloth__price-header">polo ns.5000 dark navy blue</h2>
-                  <p class="cloth__price-description">เสื้อโปโลหญิง รหัส NO 0020 สีน้ำเงินเข้ม</p>
+                  <p class="cloth__price-description">เสื้อโปโลหญิง รหัส NS.5000 สีกรมเข้ม</p>
                   <p class="cloth__price-tag">199 ฿</p>
                 </div>
               </a>
@@ -1067,7 +1064,7 @@ get_header();
                 </div>
                 <div class="cloth__price">
                   <h2 class="cloth__price-header">polo ns.5000 black</h2>
-                  <p class="cloth__price-description">เสื้อโปโลหญิง รหัส NO 0020 สีดำ</p>
+                  <p class="cloth__price-description">เสื้อโปโลหญิง รหัส NS.5000 สีดำ</p>
                   <p class="cloth__price-tag">199 ฿</p>
                 </div>
               </a>
@@ -1098,8 +1095,8 @@ get_header();
             <div class="container header section-product__header">
               <div class="row">
                 <div class="col-sm-12 col-md-12">
-                  <h2 class="heading-primary ">polo male product</h2>
-                  <h3 lang="th" class="heading-secondary">สินค้าเสื้อยืด</h3>
+                  <h2 class="heading-primary ">ns.5000 polo product</h2>
+                  <h3 lang="th" class="heading-secondary">สินค้าเสื้อโปโลชายรหัส ns.5000</h3>
                 </div>
     
               </div>
@@ -1120,8 +1117,8 @@ get_header();
                       />
                   </div>
                   <div class="cloth__price">
-                    <h2 class="cloth__price-header">polo male no.0020 white</h2>
-                    <p class="cloth__price-description">เสื้อโปโลชาย รหัส NO 0020 สีขาว</p>
+                  <h2 class="cloth__price-header">polo ns.5000 white</h2>
+                    <p class="cloth__price-description">เสื้อโปโลชาย รหัส NS.5000 สีขาว</p>
                     <p class="cloth__price-tag">199 ฿</p>
                   </div>
                 </a>
@@ -1137,8 +1134,8 @@ get_header();
                       />
                   </div>
                   <div class="cloth__price">
-                    <h2 class="cloth__price-header">polo male no.0020 yellow topaz</h2>
-                    <p class="cloth__price-description">เสื้อโปโลชาย รหัส NO 0020 สีเหลือง</p>
+                  <h2 class="cloth__price-header">polo ns.5000 yellow topaz</h2>
+                    <p class="cloth__price-description">เสื้อโปโลชาย รหัส NS.5000 สีเหลืองบุษราคัม</p>
                     <p class="cloth__price-tag">199 ฿</p>
                   </div>
                 </a>
@@ -1154,8 +1151,8 @@ get_header();
                       />
                   </div>
                   <div class="cloth__price">
-                    <h2 class="cloth__price-header">polo male no.0020 orange songea</h2>
-                    <p class="cloth__price-description">เสื้อโปโลชาย รหัส NO 0020 สีส้ม</p>
+                  <h2 class="cloth__price-header">polo ns.5000 orange songea</h2>
+                    <p class="cloth__price-description">เสื้อโปโลชาย รหัส NS.5000 สีส้มซองเจีย</p>
                     <p class="cloth__price-tag">199 ฿</p>
                   </div>
                 </a>
@@ -1171,8 +1168,8 @@ get_header();
                       />
                   </div>
                   <div class="cloth__price">
-                    <h2 class="cloth__price-header">polo male no.0020 pink diamond</h2>
-                    <p class="cloth__price-description">เสื้อโปโลชาย รหัส NO 0020 สีชมพู</p>
+                  <h2 class="cloth__price-header">polo ns.5000 pink diamond</h2>
+                    <p class="cloth__price-description">เสื้อโปโลชาย รหัส NS.5000 สีบานเย็นไดมอนด์</p>
                     <p class="cloth__price-tag">199 ฿</p>
                   </div>
                 </a>
@@ -1188,8 +1185,8 @@ get_header();
                       />
                   </div>
                   <div class="cloth__price">
-                    <h2 class="cloth__price-header">polo male no.0020 red garnet</h2>
-                    <p class="cloth__price-description">เสื้อโปโลชาย รหัส NO 0020 สีแดง</p>
+                  <h2 class="cloth__price-header">polo ns.5000 red garnet</h2>
+                    <p class="cloth__price-description">เสื้อโปโลชาย รหัส NS.5000 สีแดงโกเมน</p>
                     <p class="cloth__price-tag">199 ฿</p>
                   </div>
                 </a>
@@ -1205,8 +1202,8 @@ get_header();
                       />
                   </div>
                   <div class="cloth__price">
-                    <h2 class="cloth__price-header">polo male no.0020 amethyst</h2>
-                    <p class="cloth__price-description">เสื้อโปโลชาย รหัส NO 0020 สีม่วง</p>
+                  <h2 class="cloth__price-header">polo ns.5000 amethyst</h2>
+                    <p class="cloth__price-description">เสื้อโปโลชาย รหัส NS.5000 สีม่วงอาเมทิส</p>
                     <p class="cloth__price-tag">199 ฿</p>
                   </div>
                 </a>
@@ -1222,8 +1219,8 @@ get_header();
                       />
                   </div>
                   <div class="cloth__price">
-                    <h2 class="cloth__price-header">polo male no.0020 blue sapphire</h2>
-                    <p class="cloth__price-description">เสื้อโปโลชาย รหัส NO 0020 สีน้ำเงิน</p>
+                  <h2 class="cloth__price-header">polo ns.5000 blue sapphire</h2>
+                    <p class="cloth__price-description">เสื้อโปโลชาย รหัส NS.5000 สีน้ำเงินซัฟไฟร์</p>
                     <p class="cloth__price-tag">199 ฿</p>
                   </div>
                 </a>
@@ -1239,8 +1236,8 @@ get_header();
                       />
                   </div>
                   <div class="cloth__price">
-                    <h2 class="cloth__price-header">polo male no.0020 green peridot</h2>
-                    <p class="cloth__price-description">เสื้อโปโลชาย รหัส NO 0020 สีเขียว</p>
+                  <h2 class="cloth__price-header">polo ns.5000 green peridot</h2>
+                    <p class="cloth__price-description">เสื้อโปโลชาย รหัส NS.5000 สีเขียวดำริโดต์</p>
                     <p class="cloth__price-tag">199 ฿</p>
                   </div>
                 </a>
@@ -1256,8 +1253,8 @@ get_header();
                       />
                   </div>
                   <div class="cloth__price">
-                    <h2 class="cloth__price-header">polo male no.0020 blue topaz</h2>
-                    <p class="cloth__price-description">เสื้อโปโลชาย รหัส NO 0020 สีฟ้า</p>
+                  <h2 class="cloth__price-header">polo ns.5000 blue topaz</h2>
+                    <p class="cloth__price-description">เสื้อโปโลชาย รหัส NS.5000 สีฟ้าโทปาส</p>
                     <p class="cloth__price-tag">199 ฿</p>
                   </div>
                 </a>
@@ -1273,8 +1270,8 @@ get_header();
                       />
                   </div>
                   <div class="cloth__price">
-                    <h2 class="cloth__price-header">polo male no.0020 gray melange</h2>
-                    <p class="cloth__price-description">เสื้อโปโลชาย รหัส NO 0020 สีเทา</p>
+                  <h2 class="cloth__price-header">polo ns.5000 gray melange</h2>
+                    <p class="cloth__price-description">เสื้อโปโลชาย รหัส NS.5000 สีท็อปดราย</p>
                     <p class="cloth__price-tag">199 ฿</p>
                   </div>
                 </a>
@@ -1290,8 +1287,8 @@ get_header();
                       />
                   </div>
                   <div class="cloth__price">
-                    <h2 class="cloth__price-header">polo male no.0020 dark navy blue</h2>
-                    <p class="cloth__price-description">เสื้อโปโลชาย รหัส NO 0020 สีน้ำเงินเข้ม</p>
+                  <h2 class="cloth__price-header">polo ns.5000 dark navy blue</h2>
+                    <p class="cloth__price-description">เสื้อโปโลชาย รหัส NS.5000 สีกรมเข้ม</p>
                     <p class="cloth__price-tag">199 ฿</p>
                   </div>
                 </a>
@@ -1307,15 +1304,13 @@ get_header();
                       />
                   </div>
                   <div class="cloth__price">
-                    <h2 class="cloth__price-header">polo male no.0020 black</h2>
-                    <p class="cloth__price-description">เสื้อโปโลชาย รหัส NO 0020 สีดำ</p>
+                  <h2 class="cloth__price-header">polo ns.5000 black</h2>
+                    <p class="cloth__price-description">เสื้อโปโลชาย รหัส NS.5000 สีดำ</p>
                     <p class="cloth__price-tag">199 ฿</p>
                   </div>
                 </a>
                 </div>
-  
-  
-       
+
               </div>
               <!-- Add Arrows -->
               <div class="swiper-button-next swiper-slide__slide3__button-right"></div>
