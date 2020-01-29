@@ -59,14 +59,20 @@ body {
 }
 
 main {
-  max-width: 1188px;
-  margin: 0 auto;
+  /* max-width: 1188px; */
+  width:100%;
+  /* margin: 0 auto; */
 }
 
-@media only screen and (min-width: 156.25em) {
+/* @media only screen and (min-width: 156.25em) {
   main {
     max-width: 1800px;
   }
+} */
+
+section{
+  max-width: 1188px;
+  margin: 0 auto;
 }
 
 .content {
@@ -7093,7 +7099,7 @@ textarea {
 -------------------------------------------------------------- */
 #page {
   overflow: hidden;
-  padding-top: 3rem;
+  /* padding-top: 3rem; */
 }
 
 #primary {

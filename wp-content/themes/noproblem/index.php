@@ -3,8 +3,20 @@
 * Template Name: Home page
 * Description: This is Home page
 */ 
+?>
+
+
+<?php
 get_header();
 ?>
+
+
+    <!-- header banner -->
+    <div class="header__banner">
+      <img src="../wp-content/themes/noproblem/library/images/home/d1.1-01.jpg" alt="" />
+    </div>
+
+
 
     <!-- slide -->
     <section class="home__section-swiper u-margin-bottom-small underNav">
@@ -723,7 +735,7 @@ get_header();
         </div>
       </section>
 
-      
+
 
 
 <?php get_footer(); ?>

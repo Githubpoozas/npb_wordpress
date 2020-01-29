@@ -9,8 +9,20 @@
  *
  * @since 1.0.0
  */
+?>
+    <!-- header banner -->
+    <div class="header__bannerGray">
+      <img
+        src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
+        alt="logo"
+        class="header__bannerGray-logo"
+      />
+    </div>
+<?php
 get_header();
 ?>
+
+
 
 	<div class="container">
 		<div class="row content">
@@ -48,6 +60,7 @@ get_header();
 			get_sidebar(); 
 			*/
 			?>
+
 		</div>
 	</div>
 

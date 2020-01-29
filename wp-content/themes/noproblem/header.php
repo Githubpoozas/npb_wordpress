@@ -22,6 +22,8 @@ $space_class = '';
 ?>
 <body <?php body_class(); ?>>
 
+
+
 	<div id="page">
 
 		<header id="header">

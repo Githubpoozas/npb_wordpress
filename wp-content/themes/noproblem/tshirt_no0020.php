@@ -3,6 +3,16 @@
 * Template Name: T-SHIRT NO.0020 page
 * Description: This is T-SHIRT NO.0020 page
 */ 
+?>
+    <!-- header banner -->
+    <div class="header__bannerGray">
+      <img
+        src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
+        alt="logo"
+        class="header__bannerGray-logo"
+      />
+    </div>
+<?php
 get_header();
 ?>
 
