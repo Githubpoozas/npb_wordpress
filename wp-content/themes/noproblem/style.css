@@ -4658,7 +4658,7 @@ tbody.collapse.in {
 
 .navbar-fixed-top .navbar-collapse,
 .navbar-fixed-bottom .navbar-collapse {
-  max-height: 340px;
+  /* max-height: 340px; */
 }
 
 @media (max-device-width: 480px) and (orientation: landscape) {
@@ -7861,6 +7861,15 @@ iframe {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+
+  
+}
+
+@media only screen and (max-width: 37.5em) {
+ .socialmedia{
+   display:none;
+   visibility: hidden;    
+ }
 }
 
 .socialmedia__checkbox {
@@ -8931,7 +8940,7 @@ body:lang(en) {
 
 @media only screen and (max-width: 37.5em) {
   .swiper-slide__slide3 .cloth__img {
-    width: 90%;
+    /* width: 90%; */
   }
 }
 
@@ -9450,4 +9459,9 @@ body:lang(en) {
     -webkit-transform: translate(0);
     transform: translate(0);
   }
+}
+
+/* Share to --------------------------------------------------------------------- */
+.at-share-btn-elements{
+  text-align:center;
 }
