@@ -1012,8 +1012,8 @@ pre code {
 .container {
   margin-right: auto;
   margin-left: auto;
-
   width: 100%;
+  
 }
 
 .container:before,
@@ -4571,7 +4571,7 @@ tbody.collapse.in {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .navbar:before,
@@ -4698,6 +4698,7 @@ tbody.collapse.in {
     border-radius: 0;
   }
 }
+
 
 .navbar-fixed-top,
 .navbar-fixed-bottom {
@@ -6473,6 +6474,13 @@ textarea {
 
 /* =Header
 -------------------------------------------------------------- */
+
+#header {
+  margin-top: 15px;
+  margin-bottom:15px;
+}
+
+
 #header,
 .title-card {
   position: relative;
@@ -8743,7 +8751,7 @@ body:lang(en) {
 }
 
 .underNav {
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
 }
 
 /* Swiper slide1 Banner -------------------------------------------------------------------*/

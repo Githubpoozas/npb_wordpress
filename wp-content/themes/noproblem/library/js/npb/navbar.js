@@ -18,9 +18,7 @@ jQuery(document).ready(function() {
   }
 
   if (jQuery("#wpadminbar").is(":visible")) {
-    var top = "32px";
-  } else {
-    var top = "0";
+    var adminTools = true;
   }
 
   var prevScrollpos = jQuery(window).scrollTop();
@@ -29,21 +27,28 @@ jQuery(document).ready(function() {
 
     if (currentScrollPos >= headerHeight) {
       jQuery(".navbar").addClass("navbar-fixed-top");
-      jQuery(".underNav").addClass("u-margin-under-fix-Nav");
     }
     if (currentScrollPos < headerHeight) {
+      if (adminTools) {
+        jQuery(".navbar-fixed-top").css("top", 0);
+      }
       jQuery(".navbar").removeClass("navbar-fixed-top");
-      jQuery(".underNav").removeClass("u-margin-under-fix-Nav");
     }
 
     if (
       headerHeight + navHeight > currentScrollPos ||
       prevScrollpos > currentScrollPos
     ) {
-      jQuery(".navbar-fixed-top").css("top", top);
+      if (adminTools) {
+        jQuery(".navbar-fixed-top").css("top", "32px");
+      } else{
+        jQuery(".navbar-fixed-top").css("top", 0);
+      }
     } else {
       jQuery(".navbar-fixed-top").css("top", "-62px");
     }
+
+    console.log(currentScrollPos + ":" + prevScrollpos);
 
     prevScrollpos = currentScrollPos;
   });
