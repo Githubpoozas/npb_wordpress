@@ -8763,7 +8763,10 @@ body:lang(en) {
 .swiper-wrapper__slide1 {
   padding-left: initial;
   margin: 0;
+  height:auto;
 }
+
+
 
 .swiper-slide__slide1 {
   text-align: center;
