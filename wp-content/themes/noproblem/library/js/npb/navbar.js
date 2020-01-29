@@ -38,9 +38,3 @@ jQuery(window).scroll(function() {
 
   prevScrollpos = currentScrollPos;
 });
-
-if(jQuery('#wpadminbar')){
-  console.log("yes")
-} else{
-  console.log("Noooooooooo!")
-}
