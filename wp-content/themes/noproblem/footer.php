@@ -19,27 +19,27 @@ $bavotasan_theme_options = bavotasan_theme_options();
       />
       <label for="socialmedia-toggle" class="socialmedia__button">
         <div class="socialmedia__icon">
-          <img src="../img/socialmedia/arrow.svg" alt="" />
+          <img src="../wp-content/themes/noproblem/library/images/socialmedia/arrow.svg" alt="" />
         </div>
       </label>
       <nav class="socialmedia__nav">
         <ul class="socialmedia__list">
           <li class="socialmedia__item">
-            <a href="https://wa.me/66817741166" target="_blank"><img class="btn-shadow" src="../img/socialmedia/whatsapp.svg" alt=""/></a>
+            <a href="https://wa.me/66817741166" target="_blank"><img class="btn-shadow" src="../wp-content/themes/noproblem/library/images/socialmedia/whatsapp.svg" alt=""/></a>
           </li>
           <li class="socialmedia__item">
             <a href="https://www.facebook.com/130047820416542/" target="_blank">
-              <img class="btn-shadow" src="../img/socialmedia/facebook.svg" alt=""/>
+              <img class="btn-shadow" src="../wp-content/themes/noproblem/library/images/socialmedia/facebook.svg" alt=""/>
             </a>
           </li>
           <li class="socialmedia__item">
-            <a href="http://line.me/ti/p/~nicknoproblem" target="_blank"><img class="btn-shadow" src="../img/socialmedia/line.svg" alt=""/></a>
+            <a href="http://line.me/ti/p/~nicknoproblem" target="_blank"><img class="btn-shadow" src="../wp-content/themes/noproblem/library/images/socialmedia/line.svg" alt=""/></a>
           </li>
           <li class="socialmedia__item">
-            <a href="https://m.me/Noproblemtshirt/" target="_blank"><img class="btn-shadow" src="../img/socialmedia/messenger.svg" alt=""/></a>
+            <a href="https://m.me/Noproblemtshirt/" target="_blank"><img class="btn-shadow" src="../wp-content/themes/noproblem/library/images/socialmedia/messenger.svg" alt=""/></a>
           </li>
           <li class="socialmedia__item">
-            <a href="weixin://dl/chat?nicknoproblem"><img class="btn-shadow" src="../img/socialmedia/wechat.svg" alt=""/></a>
+            <a href="weixin://dl/chat?nicknoproblem"><img class="btn-shadow" src="../wp-content/themes/noproblem/library/images/socialmedia/wechat.svg" alt=""/></a>
           </li>
         </ul>
       </nav>
@@ -52,7 +52,7 @@ $bavotasan_theme_options = bavotasan_theme_options();
     <footer class="footer" lang="th">
       <div class="footer__box">
         <div class="footer__logo">
-          <img src="../img/noproblem_logo.svg" alt="" />
+          <img src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg" alt="" />
         </div>
         <div class="footer__contacts">
           <div class="footer__contact footer__contact-1" lang="en">
@@ -78,13 +78,13 @@ $bavotasan_theme_options = bavotasan_theme_options();
             <p class="footer__name">SOCIAL MEDIA</p>
           </div>
           <div class="footer__social footer__social-2">
-            <a href="https://wa.me/66817741166" target="_blank"><img class="btn-shadow" src="../img/socialmedia/whatsapp.svg" alt=""/></a>
+            <a href="https://wa.me/66817741166" target="_blank"><img class="btn-shadow" src="../wp-content/themes/noproblem/library/images/socialmedia/whatsapp.svg" alt=""/></a>
             <a href="https://www.facebook.com/130047820416542/" target="_blank">
-              <img class="btn-shadow" src="../img/socialmedia/facebook.svg" alt=""/>
+              <img class="btn-shadow" src="../wp-content/themes/noproblem/library/images/socialmedia/facebook.svg" alt=""/>
             </a>
-            <a href="http://line.me/ti/p/~nicknoproblem" target="_blank"><img class="btn-shadow" src="../img/socialmedia/line.svg" alt=""/></a>
-            <a href="https://m.me/Noproblemtshirt/" target="_blank"><img class="btn-shadow" src="../img/socialmedia/messenger.svg" alt=""/></a>
-            <a href="weixin://dl/chat?nicknoproblem" ><img class="btn-shadow" src="../img/socialmedia/wechat.svg" alt=""/></a>
+            <a href="http://line.me/ti/p/~nicknoproblem" target="_blank"><img class="btn-shadow" src="../wp-content/themes/noproblem/library/images/socialmedia/line.svg" alt=""/></a>
+            <a href="https://m.me/Noproblemtshirt/" target="_blank"><img class="btn-shadow" src="../wp-content/themes/noproblem/library/images/socialmedia/messenger.svg" alt=""/></a>
+            <a href="weixin://dl/chat?nicknoproblem" ><img class="btn-shadow" src="../wp-content/themes/noproblem/library/images/socialmedia/wechat.svg" alt=""/></a>
           </div>
           <div class="footer__social footer__social-3">
             <p>CALL</p>
