@@ -8203,7 +8203,7 @@ iframe {
   .footer__whitebar {
     display: none;
   }
-}
+} 
 
 /* =Grid Template
 -------------------------------------------------------------- */
@@ -9395,6 +9395,8 @@ body:lang(en) {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .line {
@@ -9418,6 +9420,7 @@ body:lang(en) {
   font-weight: 300;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+  width: 250px;
 }
 
 .btn-buy:hover {
