@@ -83,7 +83,6 @@ jQuery(window).resize(function(){
 });
 
 if (window.matchMedia("(min-width: 768px)").matches) {
-	console.log("more thant 768px")
 		jQuery( '.dropdown-toggle,.dropdown-menu' ).on('mouseenter', function() {
 		jQuery(this).parent().addClass( 'open' ); 
 	});
@@ -92,9 +91,28 @@ if (window.matchMedia("(min-width: 768px)").matches) {
 	});
   } else {
 	console.log("less thant 768px");
-	// jQuery('.navbar-collapse a').css('width','fit-content');
-	jQuery('.dropdown-toggle').parent().addClass('navTobble-mobile');
-	jQuery('.dropdown-toggle').after(' <i class="fa fa-chevron-down"></i>');
+	jQuery('.navbar-collapse a').css('width','80%');
+	jQuery('.dropdown-toggle').parent().addClass('navToggle-mobile');
+	jQuery('.dropdown-toggle').after(' <i class="nav-fa fa fa-chevron-down"></i>');
+	jQuery('.navToggle-mobile').css({
+		'display':'flex',
+		'justify-content':'space-between',
+		'flex-wrap':'wrap',
+		'transition':'height 5s'
+	});
+	jQuery('.caret').hide();
+	jQuery("i.nav-fa").on('click',function(){
+		if(jQuery(this).hasClass('fa-chevron-down')){
+			jQuery(this).removeClass('fa-chevron-down');
+			jQuery(this).addClass('fa-chevron-up');
+		} else{
+			jQuery(this).removeClass('fa-chevron-up');
+			jQuery(this).addClass('fa-chevron-down');
+		}
+		jQuery(this).parent().toggleClass('open');
+	  });
+
+
 
 
   }
