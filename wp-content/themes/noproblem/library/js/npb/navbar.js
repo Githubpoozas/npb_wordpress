@@ -46,9 +46,16 @@ jQuery(document).ready(function() {
       }
     } else {
       jQuery(".navbar-fixed-top").css("top", "-62px");
+      // jQuery("#site-navigation").find('.navbar-collapse').removeClass('in');
+
+
+
+
+      // setTimeout(function(){ alert("Hello"); }, 3000);
+
+
     }
 
-    console.log(currentScrollPos + ":" + prevScrollpos);
 
     prevScrollpos = currentScrollPos;
   });
