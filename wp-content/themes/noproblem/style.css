@@ -70,6 +70,14 @@ main {
   }
 } */
 
+/* @media only screen and (max-width: 37.5em) {
+  main {
+    width:95%;
+  }
+} */
+
+
+
 section {
   max-width: 1188px;
   margin: 0 auto;
@@ -8642,6 +8650,12 @@ body:lang(en) {
   font-size: 2rem;
 }
 
+@media only screen and (max-width: 37.5rem){
+  .story-header{
+    text-align:center;
+  }
+}
+
 .story-para {
   font-size: 1.5rem;
   font-weight: 500;
@@ -8649,6 +8663,14 @@ body:lang(en) {
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
+}
+
+@media only screen and (max-width: 37.5rem){
+  .story-para{
+    width: 90%;
+    margin-left:auto;
+    margin-right:auto;
+  }
 }
 
 .pro-con {
