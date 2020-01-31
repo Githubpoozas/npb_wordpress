@@ -12,7 +12,6 @@ jQuery(document).ready(function() {
 
   var prevScrollpos = jQuery(window).scrollTop();
   jQuery(window).scroll(function() {
-
     var currentScrollPos = jQuery(window).scrollTop();
 
     if (currentScrollPos >= headerHeight) {
@@ -39,7 +38,8 @@ jQuery(document).ready(function() {
     }
 
     prevScrollpos = currentScrollPos;
-    jQuery(".navbar-collapse").removeClass("in");
+    collapseAll();
+    jQuery("#blackOne").removeClass('blackOne_show');
   });
 
   // Navbar responsive
@@ -68,24 +68,19 @@ jQuery(document).ready(function() {
         jQuery(".dropdown-toggle").after(
           ' <i class="nav-fa fa fa-chevron-down"></i>'
         );
-
-
       }
 
       jQuery(".navToggle-mobile").css({
-        "display": "flex",
+        display: "flex",
         "justify-content": "space-between",
         "flex-wrap": "wrap",
-        "transition": "height 5s",
-        "align-items" : "center"
-
+        transition: "height 5s",
+        "align-items": "center"
       });
       jQuery(".caret").hide();
       jQuery(".nav-fa").show();
 
-      
       jQuery("i.nav-fa").on("click", function() {
-        
         if (jQuery(this).hasClass("fa-chevron-down")) {
           jQuery(this).removeClass("fa-chevron-down");
           jQuery(this).addClass("fa-chevron-up");
@@ -99,8 +94,37 @@ jQuery(document).ready(function() {
       });
     }
   }
+
   getNav();
   jQuery(window).resize(function() {
     getNav();
+  });
+
+  jQuery("#site-navigation").after('<div id="blackOne"><h1>test</h1></div>');
+
+  jQuery("#site-navigation .navbar-header .navbar-toggle").on(
+    "click",
+    function() {
+      jQuery("#blackOne").toggleClass('blackOne_show');
+      jQuery("body").toggleClass('bodyScroll');
+      
+      jQuery(".menu-item").removeClass('open');
+      jQuery(".nav-fa").removeClass("fa-chevron-up");
+      jQuery(".nav-fa").addClass("fa-chevron-down");
+    }
+  );
+
+  // Remove black
+  function collapseAll(){
+    jQuery(".navbar-collapse").removeClass('in');
+    jQuery(".menu-item").removeClass('open');
+    jQuery(".nav-fa").removeClass("fa-chevron-up");
+    jQuery(".nav-fa").addClass("fa-chevron-down");
+  }
+
+  jQuery("#blackOne").on("click", function(){
+    jQuery("#blackOne").toggleClass('blackOne_show');
+    collapseAll();
+
   });
 });

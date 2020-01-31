@@ -6,6 +6,16 @@
  */
 get_header(); ?>
 
+<?php
+$wpblog_fetrdimg = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); 
+?>
+<div class="wpblog-featured-image"
+    <?php if( $wpblog_fetrdimg ) : ?>
+ 	style="wpblog-featured-background-image: url(<?php echo $wpblog_fetrdimg; ?>);"
+    <?php endif; ?>
+        >
+  </div>
+
 	<div class="container">
 		<div class="row content">
 			<div id="primary" <?php bavotasan_primary_attr(); ?>>

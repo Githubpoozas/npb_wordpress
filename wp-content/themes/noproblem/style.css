@@ -9567,3 +9567,36 @@ height:60px;
   color: #ffffff;
 
 }
+
+.afterBlack:after{
+  content:"0000000000";
+  background-color:black;
+  opacity: .8;
+  width:100%;
+height:500px;
+}
+
+.navbar{
+  z-index: 3000;
+}
+
+#blackOne{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2999;
+  display:none;
+}
+
+.blackOne_show{
+  display:block !important;
+}
+
+.bodyScroll{
+  overflow:hidden;
+}

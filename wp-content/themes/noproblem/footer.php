@@ -39,7 +39,7 @@ $bavotasan_theme_options = bavotasan_theme_options();
             <a href="https://m.me/Noproblemtshirt/" target="_blank"><img class="btn-shadow" src="../wp-content/themes/noproblem/library/images/socialmedia/messenger.svg" alt=""/></a>
           </li>
           <li class="socialmedia__item">
-            <a href="weixin://dl/chat?nicknoproblem"><img class="btn-shadow" src="../wp-content/themes/noproblem/library/images/socialmedia/wechat.svg" alt=""/></a>
+            <a href="#wechat_bottom"><img class="btn-shadow wechat" src="../wp-content/themes/noproblem/library/images/socialmedia/wechat.svg" alt=""/></a>
           </li>
         </ul>
       </nav>
@@ -84,8 +84,13 @@ $bavotasan_theme_options = bavotasan_theme_options();
             </a>
             <a href="http://line.me/ti/p/~nicknoproblem" target="_blank"><img class="btn-shadow" src="../wp-content/themes/noproblem/library/images/socialmedia/line.svg" alt=""/></a>
             <a href="https://m.me/Noproblemtshirt/" target="_blank"><img class="btn-shadow" src="../wp-content/themes/noproblem/library/images/socialmedia/messenger.svg" alt=""/></a>
-            <a href="weixin://dl/chat?nicknoproblem" ><img class="btn-shadow" src="../wp-content/themes/noproblem/library/images/socialmedia/wechat.svg" alt=""/></a>
+
           </div>
+          <div class="footer__social footer__social-wechat">
+            <img id="wechat_bottom" class="btn-shadow wechat" src="../wp-content/themes/noproblem/library/images/socialmedia/wechat.svg" alt=""/>
+            <p id="wechatId">ID: nicknoproblem</p>
+          </div>
+
           <div class="footer__social footer__social-3">
             <p>CALL</p>
             <p><a href="tel:0817741166">081-774-1166</a></p>
@@ -100,8 +105,6 @@ $bavotasan_theme_options = bavotasan_theme_options();
 
     <div class="footer__whitebar"></div>
 	
-</div><!-- #page -->
-
 <?php wp_footer(); ?>
 </body>
 </html>
