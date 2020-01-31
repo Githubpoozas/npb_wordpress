@@ -516,7 +516,6 @@ class Bavotasan_Page_Navigation_Walker extends Walker_Nav_Menu {
 
 		if ( $item->is_dropdown ) {
 			$item_html = str_replace( '<a', '<a class="dropdown-toggle" data-toggle="dropdown" data-target="#"', $item_html );
-			// $item_html = str_replace( '</a>', ' <span class="caret"></span></a>', $item_html );
 			$item_html = str_replace( '</a>', ' <span class="caret"></span></a>', $item_html );
 
 		} elseif ( stristr( $item_html, 'li class="divider' ) ) {
