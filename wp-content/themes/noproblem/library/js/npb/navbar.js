@@ -59,7 +59,7 @@ jQuery(document).ready(function() {
           .removeClass("open");
       });
     } else {
-      jQuery(".navbar-collapse a").css("width", "70%");
+      jQuery(".navbar-collapse a").css("width", "80%");
       jQuery(".dropdown-toggle")
         .parent()
         .addClass("navToggle-mobile");
@@ -68,6 +68,8 @@ jQuery(document).ready(function() {
         jQuery(".dropdown-toggle").after(
           ' <i class="nav-fa fa fa-chevron-down"></i>'
         );
+
+
       }
 
       jQuery(".navToggle-mobile").css({
@@ -80,7 +82,10 @@ jQuery(document).ready(function() {
       });
       jQuery(".caret").hide();
       jQuery(".nav-fa").show();
+
+      
       jQuery("i.nav-fa").on("click", function() {
+        
         if (jQuery(this).hasClass("fa-chevron-down")) {
           jQuery(this).removeClass("fa-chevron-down");
           jQuery(this).addClass("fa-chevron-up");
