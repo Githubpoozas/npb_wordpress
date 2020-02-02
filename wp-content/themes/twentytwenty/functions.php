@@ -211,7 +211,7 @@ function twentytwenty_register_scripts() {
 
 	
 	// npb script
-	wp_enqueue_script( 'navbar', get_template_directory_uri() . '/assets/js/npb/navbar.js', array(), $theme_version, true );
+	wp_enqueue_script( 'navbar', get_template_directory_uri() . '/assets/js/npb/navbar.js', array('jquery'), $theme_version, true );
 
 }
 

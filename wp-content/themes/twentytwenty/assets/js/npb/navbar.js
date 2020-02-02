@@ -9,7 +9,6 @@ jQuery(document).ready(function() {
 
   if (jQuery("#wpadminbar").is(":visible")) {
     var adminTools = true;
-
   }
 
   var prevScrollpos = jQuery(window).scrollTop();
@@ -42,4 +41,5 @@ jQuery(document).ready(function() {
     prevScrollpos = currentScrollPos;
   });
 
+  console.log("navbar.js loaded");
 });
