@@ -2,19 +2,19 @@ jQuery(document).ready(function() {
   //slide 3
   var product = new Swiper(".swiper-container__slide3", {
     // allowTouchMove: true,
-    slidesPerView: 1,
-    slidesPerGroup: 1,
-
-    breakpoints: {
-      900: {
-        slidesPerView: 3,
-        slidesPerGroup: 3,
-        spaceBetween: 50
-      },
-      600: {
+    slidesPerView: 3,
+    slidesPerGroup: 3,
+    spaceBetween: 50,
+    breakpoints:{
+      900:{
         slidesPerView: 2,
-        slidesPerGroup: 2,
-        spaceBetween: 60
+    slidesPerGroup: 2,
+    spaceBetween: 60,
+      },
+      600:{
+        slidesPerView: 1,
+    slidesPerGroup: 1,
+    spaceBetween: 0,
       }
     },
 
