@@ -8925,6 +8925,9 @@ body:lang(en) {
 
 
 /* Swiper slide3 Prodcuts -----------------------------------------------------------------*/
+.section-product{
+  height:max-content;
+}
 
 .section-product__header {
   margin-bottom: 4rem;
