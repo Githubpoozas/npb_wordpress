@@ -206,7 +206,12 @@ function twentytwenty_register_scripts() {
 	}
 
 	wp_enqueue_script( 'twentytwenty-js', get_template_directory_uri() . '/assets/js/index.js', array(), $theme_version, false );
+
 	wp_script_add_data( 'twentytwenty-js', 'async', true );
+
+	
+	// npb script
+	wp_enqueue_script( 'navbar', get_template_directory_uri() . '/assets/js/npb/navbar.js', array(), $theme_version, true );
 
 }
 

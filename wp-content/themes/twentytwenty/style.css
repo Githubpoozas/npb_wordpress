@@ -6545,13 +6545,12 @@ background-color:#ddd;
 }
 
   
-  .navfix {	
+  #site-header.navfix {	
 	position: fixed;
 	top: 0;
 	margin-top: 0;
 	margin-bottom: 0;
 	width: 100%;
-	z-index: 100;
 	-webkit-transition: top .5s;
 	transition: top .5s;
   }
