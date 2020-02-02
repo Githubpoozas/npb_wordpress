@@ -4,7 +4,9 @@
  *
  * @since 1.0.0
  */
-get_header(); ?>
+
+get_header(); 
+?>
 
 	<div class="container">
 		<div class="row content">
