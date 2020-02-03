@@ -8,6 +8,8 @@ jQuery(document).ready(function() {
       jQuery(".socialmedia__rotated").animate({opacity: '0'},"slow");
       jQuery(".socialmedia__rotated").css("visibility", "hidden");
       jQuery(".socialmedia__item").animate({opacity: '1'},"slow");
+      jQuery(".socialmedia__icon").animate({margin: '8px 7px 8px 22px'},"slow");
+
 
 
     } else {
@@ -15,6 +17,8 @@ jQuery(document).ready(function() {
       jQuery(".socialmedia__rotated").animate({opacity: '1'},"slow");
       jQuery(".socialmedia__rotated").css("visibility", "visible");
       jQuery(".socialmedia__item").animate({opacity: '0'},"slow");
+      jQuery(".socialmedia__icon").animate({margin: '8px 7px'},"slow");
+
     }
   });
   jQuery('.wechat').on('click',function(){
