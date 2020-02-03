@@ -6286,7 +6286,7 @@ a.to-the-top > * {
   }
 
   main{
-max-width:1180px;		
+max-width:1188px;		
 margin-right:auto;
 margin-left:auto;
 text-align:center;
@@ -6468,6 +6468,12 @@ text-align:center;
   .header__bannerGray-logo {
 	width: 15rem;
   }
+
+.cvwp-video-player{
+	max-width:100% !important;
+	max-height:100% !important;;
+}
+  
   
   /*Navbar ------------------------------------------------------------------------------*/
 #navReplace{

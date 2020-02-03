@@ -1,9 +1,14 @@
 jQuery(document).ready(function() {
-  // jQuery('figure.toheader').appendto('header__banner');
   if(jQuery('.featured-media-inner').css("height")){
     jQuery('.featured-media-inner').appendTo('.header__banner');
-  console.log('move to head banner');
-  }
+  console.log('move feature image to head banner');
+  } 
+
+
+  if(jQuery('.cvwp-video-player').css("height")){
+    jQuery('.cvwp-video-player').appendTo('.header__banner');
+  console.log('move feature video to head banner');
+  } 
 
 
   var navHeight = jQuery("#site-header").height();
