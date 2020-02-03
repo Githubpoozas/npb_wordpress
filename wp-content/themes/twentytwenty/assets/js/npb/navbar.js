@@ -10,14 +10,25 @@ jQuery(document).ready(function() {
   var navHeight = jQuery("#site-header").height();
   var headerHeight = 0;
 
+  function getHeaderHight(){
+    if(jQuery('.header__banner').height()){
+      headerHeight = jQuery('.header__banner').height();
+    } else if(jQuery('.header__banner > iframe').height()){
+      headerHeight = jQuery('.header__banner > iframe').height();
+    }
+  }
+  getHeaderHight();
+
 
   if (jQuery("#wpadminbar").is(":visible")) {
     var adminTools = true;
   }
+ 
 
   var prevScrollpos = jQuery(window).scrollTop();
   jQuery(window).on('scroll resize',function() {
     var currentScrollPos = jQuery(window).scrollTop();
+    getHeaderHight();
 
     if (currentScrollPos >= headerHeight) {
       jQuery("#site-header").addClass("navfix");
@@ -50,12 +61,11 @@ jQuery(document).ready(function() {
       jQuery("#site-header").css("top", 0);
     }
 
-    // console.log("headerHeight: " + headerHeight + " currentScrollPos: " + currentScrollPos);
+    console.log('headerHeight: ' + headerHeight);
+    console.log('currentScrollPos: ' + currentScrollPos);
 
 
     prevScrollpos = currentScrollPos;
-
-    console.log(jQuery('.header__banner iframe').css('height'));
 
   });
 
