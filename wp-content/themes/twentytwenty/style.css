@@ -7341,7 +7341,7 @@ background-color:#ddd;
 	background-color: #818181;
 	width: auto;
 	position: fixed;
-	bottom: 30px;
+	bottom: 25px;
 	right: -22px;
 	z-index: 5000;
 	-webkit-user-select: none;
@@ -7382,7 +7382,7 @@ background-color:#ddd;
   .socialmedia__nav {
 	background-color: #C9C9C9;
 	width: auto;
-	padding: 5px;
+	padding: 8px;
   }
   
   .socialmedia__list {
