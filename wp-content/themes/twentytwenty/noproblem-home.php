@@ -1,7 +1,7 @@
 <?php
 /**
-* Template Name: noproblem home template
-* Description: noproblem home template
+* Template Name: fix video header template
+* Description: fix video header template
 */ 
 ?>
     <!-- header banner -->

@@ -61,10 +61,6 @@ jQuery(document).ready(function() {
       jQuery("#site-header").css("top", 0);
     }
 
-    console.log('headerHeight: ' + headerHeight);
-    console.log('currentScrollPos: ' + currentScrollPos);
-
-
     prevScrollpos = currentScrollPos;
 
   });
