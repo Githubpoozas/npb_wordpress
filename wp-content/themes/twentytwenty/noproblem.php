@@ -1,20 +1,13 @@
 <?php
 /**
-* Template Name: gray-banner template
-* Description: page with gray-banner template
+* Template Name: fix video header template
+* Description: fix video header template
 */ 
 ?>
     <!-- header banner -->
     <div class="header__banner">
-    <div class="header__bannerGray">
-      <img
-        src="<?php echo get_template_directory_uri(); ?>/assets/images/noproblem_logo.svg"
-        alt="logo"
-        class="header__bannerGray-logo"
-      />
+	<img src="" alt="">
     </div>
-    </div>
-
 <?php
 get_header();
 ?>
