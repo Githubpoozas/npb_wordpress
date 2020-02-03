@@ -5,6 +5,7 @@
 */ 
 ?>
     <!-- header banner -->
+    <div class=".header__banner">
     <div class="header__bannerGray">
       <img
         src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
@@ -12,6 +13,8 @@
         class="header__bannerGray-logo"
       />
     </div>
+    </div>
+
 <?php
 get_header();
 ?>

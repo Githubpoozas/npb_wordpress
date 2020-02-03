@@ -1,16 +1,12 @@
 <?php
 /**
-* Template Name: gray-banner template
-* Description: page with gray-banner template
+* Template Name: noproblem home template
+* Description: noproblem home template
 */ 
 ?>
     <!-- header banner -->
-    <div class="header__bannerGray">
-      <img
-        src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-        alt="logo"
-        class="header__bannerGray-logo"
-      />
+    <div class="header__banner">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/SvluAN9ngmk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 <?php
 get_header();
