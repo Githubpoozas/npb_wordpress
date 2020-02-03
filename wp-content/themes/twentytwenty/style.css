@@ -431,7 +431,7 @@ a:focus {
 
 
 /* Lists ------------------------------------- */
-
+/* 
 ul,
 ol {
 	margin: 0 0 3rem 3rem;
@@ -497,7 +497,7 @@ dt + dd {
 
 dd + dt {
 	margin-top: 1.5rem;
-}
+} */
 
 
 /* Quotes ------------------------------------ */
@@ -654,7 +654,7 @@ label {
 	margin: 0 0 0.5rem 0;
 }
 
-label.inline,
+/* label.inline,
 input[type="checkbox"] + label {
 	display: inline;
 	font-weight: 400;
@@ -688,7 +688,7 @@ input[type="checkbox"]:checked::before {
 	margin: -0.1875rem 0 0 -0.25rem;
 	height: 1.75rem;
 	width: 1.75rem;
-}
+} */
 
 input,
 textarea,
@@ -4542,7 +4542,7 @@ a.to-the-top > * {
 @media ( min-width: 700px ) {
 
 	/* Element Base ------------------------- */
-
+/* 
 	ul,
 	ol {
 		margin-bottom: 4rem;
@@ -4558,7 +4558,7 @@ a.to-the-top > * {
 
 	table {
 		font-size: 1.8rem;
-	}
+	} */
 
 	/* VANILLA GALLERIES */
 
@@ -7342,7 +7342,7 @@ background-color:#ddd;
 	width: auto;
 	position: fixed;
 	bottom: 30px;
-	right: -14px;
+	right: -22px;
 	z-index: 5000;
 	-webkit-user-select: none;
 	-moz-user-select: none;
@@ -7359,7 +7359,7 @@ background-color:#ddd;
 	}
   }
   
-  .socialmedia__checkbox {
+  input.socialmedia__checkbox {
 	display: none;
   }
   
@@ -7382,7 +7382,7 @@ background-color:#ddd;
   .socialmedia__nav {
 	background-color: #C9C9C9;
 	width: auto;
-	padding: 5px 0;
+	padding: 5px;
   }
   
   .socialmedia__list {
@@ -7433,7 +7433,7 @@ background-color:#ddd;
 	color: #818181;
 	padding: 2px;
 	text-align: center;
-	height: 248px;
+	height: 245px;
 	width: 100%;
   }
   

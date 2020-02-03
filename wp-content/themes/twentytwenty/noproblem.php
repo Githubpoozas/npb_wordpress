@@ -1,12 +1,12 @@
 <?php
 /**
-* Template Name: fix video header template
-* Description: fix video header template
+* Template Name: noproblem home template
+* Description: noproblem home template
 */ 
 ?>
     <!-- header banner -->
     <div class="header__banner">
-	<img src="" alt="">
+	<img src=" <?php echo content_url(); ?>/1white_1.jpg" alt="">
     </div>
 <?php
 get_header();

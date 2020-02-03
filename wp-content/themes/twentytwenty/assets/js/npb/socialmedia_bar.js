@@ -5,15 +5,13 @@ jQuery(document).ready(function() {
   jQuery("input").on("click", function() {
     if (ckbox.is(":checked")) {
       jQuery(".socialmedia").animate({right: '0px'},"slow");
-      jQuery(".socialmedia__icon").animate({margin: "0 20px 5px"});
       jQuery(".socialmedia__rotated").animate({opacity: '0'},"slow");
       jQuery(".socialmedia__rotated").css("visibility", "hidden");
       jQuery(".socialmedia__item").animate({opacity: '1'},"slow");
 
 
     } else {
-      jQuery(".socialmedia").animate({right: '-14px'},"slow");
-      jQuery(".socialmedia__icon").animate({margin: "0 7px 5px"});
+      jQuery(".socialmedia").animate({right: '-22px'},"slow");
       jQuery(".socialmedia__rotated").animate({opacity: '1'},"slow");
       jQuery(".socialmedia__rotated").css("visibility", "visible");
       jQuery(".socialmedia__item").animate({opacity: '0'},"slow");
@@ -35,5 +33,5 @@ jQuery(document).ready(function() {
     
 
   })
-
+console.log('socialmedia loaded')
 });

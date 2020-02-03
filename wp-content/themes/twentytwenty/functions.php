@@ -218,6 +218,8 @@ function twentytwenty_register_scripts() {
 	
 	// noproblem script
 	wp_enqueue_script( 'navbar', get_template_directory_uri() . '/assets/js/npb/navbar.js', array('jquery'), $theme_version, true );
+	wp_enqueue_script( 'socialmedia_bar', get_template_directory_uri() . '/assets/js/npb/socialmedia_bar.js', array('jquery'), $theme_version, true );
+
 
 }
 
