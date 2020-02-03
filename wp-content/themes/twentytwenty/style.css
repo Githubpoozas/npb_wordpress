@@ -2350,10 +2350,6 @@ body:not(.singular) main > article:first-of-type {
 
 /* Post Header ------------------------------- */
 
-.singular .entry-header {
-	background-color: #fff;
-	padding: 4rem 0;
-}
 
 .entry-categories {
 	line-height: 1.25;
@@ -4886,9 +4882,6 @@ a.to-the-top > * {
 
 	/* POST HEADER */
 
-	.singular .entry-header {
-		padding: 4rem 0;
-	}
 
 	.entry-categories {
 		margin-bottom: 3rem;
