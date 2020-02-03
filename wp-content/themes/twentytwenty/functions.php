@@ -58,7 +58,9 @@ function twentytwenty_theme_support() {
 	add_theme_support( 'post-thumbnails' );
 
 	// Set post thumbnail size.
-	set_post_thumbnail_size( 1200, 9999 );
+	// set_post_thumbnail_size( 1200, 9999 );
+	set_post_thumbnail_size( 9999, 9999 );
+
 
 	// Add custom image size used in Cover Template.
 	add_image_size( 'twentytwenty-fullscreen', 1980, 9999 );
@@ -208,9 +210,13 @@ function twentytwenty_register_scripts() {
 	wp_enqueue_script( 'twentytwenty-js', get_template_directory_uri() . '/assets/js/index.js', array(), $theme_version, false );
 
 	wp_script_add_data( 'twentytwenty-js', 'async', true );
-
 	
-	// npb script
+
+	// noproblem css
+	wp_enqueue_style( 'noproblem-lato', '//fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700,800,900&display=swap', false, null, 'all' );
+	wp_enqueue_style( 'noproblem-kanit', '//fonts.googleapis.com/css?family=Kanit:100,200,300,400,500,600,700,800,900&display=swap', false, null, 'all' );
+	
+	// noproblem script
 	wp_enqueue_script( 'navbar', get_template_directory_uri() . '/assets/js/npb/navbar.js', array('jquery'), $theme_version, true );
 
 }

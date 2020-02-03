@@ -1,9 +1,23 @@
 jQuery(document).ready(function() {
+  // jQuery('figure.toheader').appendto('header__banner');
+  if(jQuery('.featured-media-inner').css("height")){
+    jQuery('.featured-media-inner').appendTo('.header__banner');
+  
+  }
+  if(jQuery('span.icon').css("height")){
+    jQuery(this).parent()
+  }
+
+
   var navHeight = jQuery("#site-header").height();
   var headerHeight = 0;
-  if (jQuery(".header__banner").css("height")) {
+  if (jQuery(".header__banner").css("height") && !jQuery(".header__bannerGray").css("height")) {
     headerHeight = jQuery(".header__banner").height();
-  } else {
+  }  else if (jQuery(".header__banner").css("height") && jQuery(".header__bannerGray").css("height")) {
+    headerHeight = jQuery(".header__banner").height();
+    jQuery(".header__bannerGray").hide();
+  }
+  else {
     headerHeight = jQuery(".header__bannerGray").height();
   }
 
