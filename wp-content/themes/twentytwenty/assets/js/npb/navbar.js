@@ -59,15 +59,10 @@ jQuery(document).ready(function() {
       jQuery(".navfix").css("top", "-62px");
     }
 
-    console.log(headerHeight+";" +currentScrollPos)
-
     if(headerHeight == null && currentScrollPos == 0) {
       jQuery("#site-header").css("top", 0);
     }
-
-
     prevScrollpos = currentScrollPos;
   });
 
-  console.log("navbar.js loaded");
 });
