@@ -19,7 +19,6 @@ jQuery(document).ready(function() {
   }
   getHeaderHight();
 
-
   if (jQuery("#wpadminbar").is(":visible")) {
     var adminTools = true;
   }
@@ -40,8 +39,9 @@ jQuery(document).ready(function() {
       jQuery("#site-header").removeClass("navfix");
     }
 
-    if (headerHeight == null && currentScrollPos == 0) {
+    if (headerHeight == 0 && currentScrollPos == 0) {
       jQuery("#site-header").removeClass("navfix");
+      jQuery("#site-header").css("top", 0);
     }
 
     if (
@@ -57,12 +57,11 @@ jQuery(document).ready(function() {
       jQuery(".navfix").css("top", "-62px");
     }
 
-    if (headerHeight == null && currentScrollPos == 0) {
-      jQuery("#site-header").css("top", 0);
-    }
 
     prevScrollpos = currentScrollPos;
 
   });
-
+  jQuery("#site-header").on("click", function(){
+    jQuery("#site-header").css('transform','translateY(10px)')
+  });
 });

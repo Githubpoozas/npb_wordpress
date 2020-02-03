@@ -215,10 +215,24 @@ function twentytwenty_register_scripts() {
 	// noproblem css
 	wp_enqueue_style( 'noproblem-lato', '//fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700,800,900&display=swap', false, null, 'all' );
 	wp_enqueue_style( 'noproblem-kanit', '//fonts.googleapis.com/css?family=Kanit:100,200,300,400,500,600,700,800,900&display=swap', false, null, 'all' );
+	wp_enqueue_style( 'swiper-css',  get_template_directory_uri() . '/assets/css/swiper.min.css', false,'5.2.1', 'all' );
 	
 	// noproblem script
 	wp_enqueue_script( 'navbar', get_template_directory_uri() . '/assets/js/npb/navbar.js', array('jquery'), $theme_version, true );
 	wp_enqueue_script( 'socialmedia_bar', get_template_directory_uri() . '/assets/js/npb/socialmedia_bar.js', array('jquery'), $theme_version, true );
+	wp_enqueue_script( 'swiper', get_template_directory_uri() . '/assets/js/npb/swiper.min.js', array('jquery'), $theme_version, true );
+	wp_enqueue_script( 'swiper_banner', get_template_directory_uri() . '/assets/js/npb/swiper_banner.js', array('jquery'), $theme_version, true );
+	wp_enqueue_script( 'swiper_project', get_template_directory_uri() . '/assets/js/npb/swiper_project.js', array('jquery'), $theme_version, true );
+	wp_enqueue_script( 'swiper_product', get_template_directory_uri() . '/assets/js/npb/swiper_product.js', array('jquery'), $theme_version, true );
+	wp_enqueue_script( 'swiper_detail', get_template_directory_uri() . '/assets/js/npb/swiper_detail.js', array('jquery'), $theme_version, true );
+	wp_enqueue_script( 'size-table', get_template_directory_uri() . '/assets/js/npb/size-table.js', array('jquery'), $theme_version, true );
+	wp_enqueue_script( 'color-picker', get_template_directory_uri() . '/assets/js/npb/color-picker.js', array('jquery'), $theme_version, true );
+	wp_enqueue_script( 'lazyload', get_template_directory_uri() . '/assets/js/npb/lazyload.js', array('jquery'), $theme_version, true );
+	wp_enqueue_script( 'lazy', get_template_directory_uri() . '/assets/js/npb/lazy.js', array('jquery'), $theme_version, true );
+
+	
+	
+	
 
 
 }

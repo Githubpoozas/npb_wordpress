@@ -6,7 +6,12 @@
  * @subpackage Twenty_Twenty
  * @since 1.0.0
  */
+?>
+    <!-- header banner -->
+    <div class="header__banner">
 
+    </div>
+<?php
 get_header();
 ?>
 
@@ -23,8 +28,6 @@ get_header();
 	</div><!-- .section-inner -->
 
 </main><!-- #site-content -->
-
-<?php get_template_part( 'template-parts/footer-menus-widgets' ); ?>
 
 <?php
 get_footer();

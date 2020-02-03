@@ -13,7 +13,12 @@
  * @subpackage Twenty_Twenty
  * @since 1.0.0
  */
+?>
+    <!-- header banner -->
+    <div class="header__banner">
 
+    </div>
+<?php
 get_header();
 ?>
 
