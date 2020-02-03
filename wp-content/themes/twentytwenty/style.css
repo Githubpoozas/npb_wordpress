@@ -6260,7 +6260,9 @@ a.to-the-top > * {
 
 
 /* Noproblem Theme --------------------------------------------------------------------------*/
-
+.entry-content{
+	text-align:center;
+}
 
 
 .lazy {
