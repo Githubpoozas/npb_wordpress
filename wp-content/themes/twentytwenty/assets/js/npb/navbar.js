@@ -2,10 +2,7 @@ jQuery(document).ready(function() {
   // jQuery('figure.toheader').appendto('header__banner');
   if(jQuery('.featured-media-inner').css("height")){
     jQuery('.featured-media-inner').appendTo('.header__banner');
-  
-  }
-  if(jQuery('span.icon').css("height")){
-    jQuery(this).parent()
+  console.log('move to head banner');
   }
 
 
