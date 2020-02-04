@@ -1,10 +1,10 @@
 // slide1
 var swiper1 = new Swiper(".swiper-container__slide1", {
   // autoHeight: true,
-  autoplay: {
-    delay: 2500,
-    disableOnInteraction: false
-  },
+  // autoplay: {
+  //   delay: 2500,
+  //   disableOnInteraction: false
+  // },
   slidesPerView: 1,
   spaceBetween: 0,
   loop: true,

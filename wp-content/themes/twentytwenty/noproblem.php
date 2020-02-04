@@ -6,7 +6,7 @@
 ?>
     <!-- header banner -->
     <div class="header__banner">
-	<img src=" <?php echo content_url(); ?>/1white_1.jpg" alt="">
+	<img src=" <?php echo content_url(); ?>/themes/twentytwenty/assets/images/home/d1.1-01.jpg" alt="">
     </div>
 <?php
 get_header();
@@ -30,13 +30,13 @@ get_header();
               </video>
             </li> -->
             <li class="swiper-slide swiper-slide__slide1">
-              <img src="../wp-content/themes/noproblem/library/images/home/banner_client/01.jpg" />
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/banner_client/01.jpg" />
             </li>
             <li class="swiper-slide swiper-slide__slide1">
-              <img src="../wp-content/themes/noproblem/library/images/home/banner_client/02.jpg" />
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/banner_client/02.jpg" />
             </li>
             <li class="swiper-slide swiper-slide__slide1">
-              <img src="../wp-content/themes/noproblem/library/images/home/banner_client/03.jpg" />
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/banner_client/03.jpg" />
             </li>
           </ul>
           <!-- Add Pagination -->
@@ -59,492 +59,432 @@ get_header();
             <!-- slide 1 -->
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/tobe1.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/tobe1.png"
                 alt="to be number 1"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/benz_ttc.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/benz_ttc.png"
                 alt="Benz TTC"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/singha.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/singha.png"
                 alt="singha"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/bmw.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/bmw.png"
                 alt="BMW"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/ptt.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/ptt.png"
                 alt="PTT"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/chevron.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/chevron.png"
                 alt="Chevron"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/kbank.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/kbank.png"
                 alt="Kbank"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/era.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/era.png"
                 alt="ERA"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/honda.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/honda.png"
                 alt="honda"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/gsk.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/gsk.png"
                 alt="gsk"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
 
             <!-- slide 2 -->
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/spy.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/spy.png"
                 alt="spy"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/clay_works.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/clay_works.png"
                 alt="Clay works"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/sabai.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/sabai.png"
                 alt="sabai"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/boeing.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/boeing.png"
                 alt="BOEING"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/kiatnakin.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/kiatnakin.png"
                 alt="Kiatnakin"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/airbus.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/airbus.png"
                 alt="ARIBUS"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/hellmann.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/hellmann.png"
                 alt="hellmann"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/amg.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/amg.png"
                 alt="AMG"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/pearl.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/pearl.png"
                 alt="pearl"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/chua_hah_seng.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/chua_hah_seng.png"
                 alt="chua hah seng"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
 
             <!-- slide 3 -->
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/rath.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/rath.png"
                 alt="rath"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/tam_club.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/tam_club.png"
                 alt="tam club"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/bangkok.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/bangkok.png"
                 alt="bangkok"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/police_7.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/police_7.png"
                 alt="police 7"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/opasi.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/opasi.png"
                 alt="opasi"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/isoc.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/isoc.png"
                 alt="isoc"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/lions.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/lions.png"
                 alt="LIONS"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/commando.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/commando.png"
                 alt="commando"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/metropolitan.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/metropolitan.png"
                 alt="metropolitan"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/vespa.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/vespa.png"
                 alt="vespa"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
 
             <!-- slide 4 -->
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/thaihealth.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/thaihealth.png"
                 alt="thaihealth"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/krua_thua_rae.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/krua_thua_rae.png"
                 alt="krua thua rae"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/sathira.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/sathira.png"
                 alt="sathira"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/earthsafe.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/earthsafe.png"
                 alt="earthsafe"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/burapha.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/burapha.png"
                 alt="burapha"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/lanta_diver.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/lanta_diver.png"
                 alt="lanta_diver"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/kpt.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/kpt.png"
                 alt="kpt"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/panyarat.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/panyarat.png"
                 alt="panyarat"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/cherntawan.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/cherntawan.png"
                 alt="cherntawan"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/petra.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/petra.png"
                 alt="PetraChem"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
 
             <!-- slide 5 -->
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/ngg.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/ngg.png"
                 alt="NGG"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/kai.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/kai.png"
                 alt="kai"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/milch.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/milch.png"
                 alt="Milch"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/jbl.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/jbl.png"
                 alt="JBL"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/colonze.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/colonze.png"
                 alt="Colonze"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/guardian.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/guardian.png"
                 alt="guardian"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/oriflame.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/oriflame.png"
                 alt="oriflame"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/sccc.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/sccc.png"
                 alt="SCCC"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/lamina.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/lamina.png"
                 alt="Lamina"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/thonburi.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/thonburi.png"
                 alt="thonburi"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
 
             <!-- slide 6 -->
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/fcci.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/fcci.png"
                 alt="FCCI"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/bic.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/bic.png"
                 alt="bic"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/star_vegas.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/star_vegas.png"
                 alt="star Vegas"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/shure.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/shure.png"
                 alt="SHURE"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/ymax.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/ymax.png"
                 alt="YMAX"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/tn.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/tn.png"
                 alt="TN"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/beer.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/beer.png"
                 alt="BEER"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/sixt.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/sixt.png"
                 alt="SIXT"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/sriracha.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/sriracha.png"
                 alt="SRIRACHA"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
             <div class="swiper-slide swiper-slide__slide2">
               <img
-                src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-                data-src="../wp-content/themes/noproblem/library/images/home/logo_sponsor/opasi.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/logo_sponsor/opasi.png"
                 alt="opasi"
-                class="swiper-slide__slide2__img lazy"
+                class="swiper-slide__slide2__img"
               />
             </div>
           </div>
@@ -559,26 +499,23 @@ get_header();
         <div class="banner">
           <a href="#">
             <img
-              src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-              data-src="../wp-content/themes/noproblem/library/images/home/d6-03.jpg"
+              src="<?php echo get_template_directory_uri(); ?>/assets/images/home/d6-03.jpg"
               alt=""
-              class="banner__img lazy"
+              class="banner__img"
             />
           </a>
           <a href="#">
             <img
-              src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-              data-src="../wp-content/themes/noproblem/library/images/home/7-8-07-min.jpg"
+              src="<?php echo get_template_directory_uri(); ?>/assets/images/home/7-8-07-min.jpg"
               alt=""
-              class="banner__img lazy"
+              class="banner__img"
             />
           </a>
           <a href="#">
             <img
-              src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
-              data-src="../wp-content/themes/noproblem/library/images/home/7-8_Artboard_8-min.jpg"
+              src="<?php echo get_template_directory_uri(); ?>/assets/images/home/7-8_Artboard_8-min.jpg"
               alt=""
-              class="banner__img lazy"
+              class="banner__img"
             />
           </a>
         </div>
@@ -589,13 +526,13 @@ get_header();
         <div class="container header u-margin-bottom-small">
           <div class="row">
             <div class="col-sm-12 col-md-4 graybar-left">
-              <img src="../wp-content/themes/noproblem/library/images/graybar.svg" alt="" class="graybar" />
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/graybar.svg" alt="" class="graybar" />
             </div>
             <div class="col-sm-12 col-md-4 graybar-middle">
               <h2 class="heading-primary ">lastest product</h2>
             </div>
             <div class="col-sm-12 col-md-4 graybar-right">
-              <img src="../wp-content/themes/noproblem/library/images/graybar.svg" alt="" class="graybar" />
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/graybar.svg" alt="" class="graybar" />
             </div>
           </div>
           <h3 lang="th" class="heading-secondary">สินค้าล่าสุด</h3>
@@ -611,7 +548,7 @@ get_header();
              
                   <img
                     class="cloth__img"
-                    src="../wp-content/themes/noproblem/library/images/item/tshirt/5orange_1.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt/5orange_1.jpg"
                     alt=""
                   />
                
@@ -631,7 +568,7 @@ get_header();
               
                   <img
                     class="cloth__img"
-                    src="../wp-content/themes/noproblem/library/images/item/vtshirt0020/2top_1.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/item/vtshirt0020/2top_1.jpg"
                     alt=""
                   />
                 
@@ -650,7 +587,7 @@ get_header();
               <div class="cloth"> 
                   <img
                     class="cloth__img"
-                    src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/2yellow_topaz_f_1.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/2yellow_topaz_f_1.jpg"
                     alt=""
                   />
                
@@ -669,7 +606,7 @@ get_header();
               <div class="cloth">
                   <img
                     class="cloth__img"
-                    src="../wp-content/themes/noproblem/library/images/item/polo_mf/male/4pink_diamond_m_1.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/male/4pink_diamond_m_1.jpg"
                     alt=""
                   />
               </div>
@@ -687,7 +624,7 @@ get_header();
               <div class="cloth">
                   <img
                     class="cloth__img"
-                    src="../wp-content/themes/noproblem/library/images/item/polo_mf/male/12black_m_1.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/male/12black_m_1.jpg"
                     alt=""
                   />
               </div>
@@ -705,7 +642,7 @@ get_header();
               <div class="cloth">
                   <img
                     class="cloth__img"
-                    src="../wp-content/themes/noproblem/library/images/item/polo_mf/male/3orange_songea_m_1.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/male/3orange_songea_m_1.jpg"
                     alt=""
                   />
               </div>

@@ -7,7 +7,7 @@
     <!-- header banner -->
     <div class="header__bannerGray">
       <img
-        src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
+        src="<?php echo get_template_directory_uri(); ?>/assets/images/noproblem_logo.svg"
         alt="logo"
         class="header__bannerGray-logo"
       />
@@ -22,7 +22,7 @@ get_header();
       <section class="product__section-banner u-margin-bottom-medium underNav">
         <div class="banner">
           <a href="#">
-            <img src="../wp-content/themes/noproblem/library/images/product/d3-02-min.jpg" alt="" class="banner__img" />
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/product/d3-02-min.jpg" alt="" class="banner__img" />
           </a>
         </div>
       </section>
@@ -47,7 +47,7 @@ get_header();
               <div class="cloth">
                   <img
                     class="cloth__img"
-                    src="../wp-content/themes/noproblem/library/images/item/tshirt/1white_1.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt/1white_1.jpg"
                     alt=""
                   />
               </div>
@@ -64,7 +64,7 @@ get_header();
               <div class="cloth">
                   <img
                     class="cloth__img"
-                    src="../wp-content/themes/noproblem/library/images/item/tshirt/2cream_1.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt/2cream_1.jpg"
                     alt=""
                   />
               </div>
@@ -81,7 +81,7 @@ get_header();
               <div class="cloth">
                   <img
                     class="cloth__img"
-                    src="../wp-content/themes/noproblem/library/images/item/tshirt/3butter_yellow_1.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt/3butter_yellow_1.jpg"
                     alt=""
                   />
               </div>
@@ -98,7 +98,7 @@ get_header();
               <div class="cloth">
                   <img
                     class="cloth__img"
-                    src="../wp-content/themes/noproblem/library/images/item/tshirt/4deep_yellow_1.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt/4deep_yellow_1.jpg"
                     alt=""
                   />
               </div>
@@ -115,7 +115,7 @@ get_header();
               <div class="cloth">
                   <img
                     class="cloth__img"
-                    src="../wp-content/themes/noproblem/library/images/item/tshirt/5orange_1.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt/5orange_1.jpg"
                     alt=""
                   />
               </div>
@@ -132,7 +132,7 @@ get_header();
               <div class="cloth">
                   <img
                     class="cloth__img"
-                    src="../wp-content/themes/noproblem/library/images/item/tshirt/6red_1.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt/6red_1.jpg"
                     alt=""
                   />
               </div>
@@ -149,7 +149,7 @@ get_header();
               <div class="cloth">
                   <img
                     class="cloth__img"
-                    src="../wp-content/themes/noproblem/library/images/item/tshirt/7maroon_1.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt/7maroon_1.jpg"
                     alt=""
                   />
               </div>
@@ -166,7 +166,7 @@ get_header();
               <div class="cloth">
                   <img
                     class="cloth__img"
-                    src="../wp-content/themes/noproblem/library/images/item/tshirt/8brick_1.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt/8brick_1.jpg"
                     alt=""
                   />
               </div>
@@ -183,7 +183,7 @@ get_header();
               <div class="cloth">
                   <img
                     class="cloth__img"
-                    src="../wp-content/themes/noproblem/library/images/item/tshirt/9caramel_1.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt/9caramel_1.jpg"
                     alt=""
                   />
               </div>
@@ -200,7 +200,7 @@ get_header();
               <div class="cloth">
                   <img
                     class="cloth__img"
-                    src="../wp-content/themes/noproblem/library/images/item/tshirt/10goldie_brown_1.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt/10goldie_brown_1.jpg"
                     alt=""
                   />
               </div>
@@ -217,7 +217,7 @@ get_header();
               <div class="cloth">
                   <img
                     class="cloth__img"
-                    src="../wp-content/themes/noproblem/library/images/item/tshirt/11pink_1.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt/11pink_1.jpg"
                     alt=""
                   />
               </div>
@@ -234,7 +234,7 @@ get_header();
               <div class="cloth">
                   <img
                     class="cloth__img"
-                    src="../wp-content/themes/noproblem/library/images/item/tshirt/12violet_1.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt/12violet_1.jpg"
                     alt=""
                   />
               </div>
@@ -251,7 +251,7 @@ get_header();
               <div class="cloth">
                   <img
                     class="cloth__img"
-                    src="../wp-content/themes/noproblem/library/images/item/tshirt/13blue2018_1.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt/13blue2018_1.jpg"
                     alt=""
                   />
               </div>
@@ -268,7 +268,7 @@ get_header();
               <div class="cloth">
                   <img
                     class="cloth__img"
-                    src="../wp-content/themes/noproblem/library/images/item/tshirt/14dark_sky_blue_1.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt/14dark_sky_blue_1.jpg"
                     alt=""
                   />
               </div>
@@ -285,7 +285,7 @@ get_header();
               <div class="cloth">
                   <img
                     class="cloth__img"
-                    src="../wp-content/themes/noproblem/library/images/item/tshirt/15deep_sky_blue_1.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt/15deep_sky_blue_1.jpg"
                     alt=""
                   />
               </div>
@@ -302,7 +302,7 @@ get_header();
               <div class="cloth">
                   <img
                     class="cloth__img"
-                    src="../wp-content/themes/noproblem/library/images/item/tshirt/16crystal_blue_1.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt/16crystal_blue_1.jpg"
                     alt=""
                   />
               </div>
@@ -319,7 +319,7 @@ get_header();
               <div class="cloth">
                   <img
                     class="cloth__img"
-                    src="../wp-content/themes/noproblem/library/images/item/tshirt/17green_leaf_1.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt/17green_leaf_1.jpg"
                     alt=""
                   />
               </div>
@@ -336,7 +336,7 @@ get_header();
               <div class="cloth">
                   <img
                     class="cloth__img"
-                    src="../wp-content/themes/noproblem/library/images/item/tshirt/18mint_1.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt/18mint_1.jpg"
                     alt=""
                   />
               </div>
@@ -353,7 +353,7 @@ get_header();
               <div class="cloth">
                   <img
                     class="cloth__img"
-                    src="../wp-content/themes/noproblem/library/images/item/tshirt/19teal_1.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt/19teal_1.jpg"
                     alt=""
                   />
               </div>
@@ -370,7 +370,7 @@ get_header();
               <div class="cloth">
                   <img
                     class="cloth__img"
-                    src="../wp-content/themes/noproblem/library/images/item/tshirt/20avocado_1.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt/20avocado_1.jpg"
                     alt=""
                   />
               </div>
@@ -387,7 +387,7 @@ get_header();
               <div class="cloth">
                   <img
                     class="cloth__img"
-                    src="../wp-content/themes/noproblem/library/images/item/tshirt/21light_navy_1.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt/21light_navy_1.jpg"
                     alt=""
                   />
               </div>
@@ -404,7 +404,7 @@ get_header();
               <div class="cloth">
                   <img
                     class="cloth__img"
-                    src="../wp-content/themes/noproblem/library/images/item/tshirt/22dark_navy_blue_1.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt/22dark_navy_blue_1.jpg"
                     alt=""
                   />
               </div>
@@ -421,7 +421,7 @@ get_header();
               <div class="cloth">
                   <img
                     class="cloth__img"
-                    src="../wp-content/themes/noproblem/library/images/item/tshirt/23deep_gray_1.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt/23deep_gray_1.jpg"
                     alt=""
                   />
               </div>
@@ -438,7 +438,7 @@ get_header();
               <div class="cloth">
                   <img
                     class="cloth__img"
-                    src="../wp-content/themes/noproblem/library/images/item/tshirt/24light_gray_1.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt/24light_gray_1.jpg"
                     alt=""
                   />
               </div>
@@ -455,7 +455,7 @@ get_header();
               <div class="cloth">
                   <img
                     class="cloth__img"
-                    src="../wp-content/themes/noproblem/library/images/item/tshirt/25black_1.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt/25black_1.jpg"
                     alt=""
                   />
               </div>
@@ -473,7 +473,7 @@ get_header();
               <div class="cloth">
                   <img
                     class="cloth__img"
-                    src="../wp-content/themes/noproblem/library/images/item/tshirt/25top_1.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt/25top_1.jpg"
                     alt=""
                   />
               </div>
@@ -525,7 +525,7 @@ get_header();
                 <div class="cloth">
                     <img
                       class="cloth__img"
-                      src="../wp-content/themes/noproblem/library/images/item/tshirt32/1white_1.jpg"
+                      src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/1white_1.jpg"
                       alt=""
                     />
                 </div>
@@ -542,7 +542,7 @@ get_header();
                 <div class="cloth">
                     <img
                       class="cloth__img"
-                      src="../wp-content/themes/noproblem/library/images/item/tshirt32/2yellow_1.jpg"
+                      src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/2yellow_1.jpg"
                       alt=""
                     />
                 </div>
@@ -559,7 +559,7 @@ get_header();
                 <div class="cloth">
                     <img
                       class="cloth__img"
-                      src="../wp-content/themes/noproblem/library/images/item/tshirt32/3caramel_1.jpg"
+                      src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/3caramel_1.jpg"
                       alt=""
                     />
                 </div>
@@ -576,7 +576,7 @@ get_header();
                 <div class="cloth">
                     <img
                       class="cloth__img"
-                      src="../wp-content/themes/noproblem/library/images/item/tshirt32/4orange_1.jpg"
+                      src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/4orange_1.jpg"
                       alt=""
                     />
                 </div>
@@ -593,7 +593,7 @@ get_header();
                 <div class="cloth">
                     <img
                       class="cloth__img"
-                      src="../wp-content/themes/noproblem/library/images/item/tshirt32/5pink_1.jpg"
+                      src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/5pink_1.jpg"
                       alt=""
                     />
                 </div>
@@ -610,7 +610,7 @@ get_header();
                 <div class="cloth">
                     <img
                       class="cloth__img"
-                      src="../wp-content/themes/noproblem/library/images/item/tshirt32/6red_1.jpg"
+                      src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/6red_1.jpg"
                       alt=""
                     />
                 </div>
@@ -627,7 +627,7 @@ get_header();
                 <div class="cloth">
                     <img
                       class="cloth__img"
-                      src="../wp-content/themes/noproblem/library/images/item/tshirt32/7maroon_1.jpg"
+                      src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/7maroon_1.jpg"
                       alt=""
                     />
                 </div>
@@ -644,7 +644,7 @@ get_header();
                 <div class="cloth">
                     <img
                       class="cloth__img"
-                      src="../wp-content/themes/noproblem/library/images/item/tshirt32/8deep_blue_1.jpg"
+                      src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/8deep_blue_1.jpg"
                       alt=""
                     />
                 </div>
@@ -661,7 +661,7 @@ get_header();
                 <div class="cloth">
                     <img
                       class="cloth__img"
-                      src="../wp-content/themes/noproblem/library/images/item/tshirt32/9mint_1.jpg"
+                      src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/9mint_1.jpg"
                       alt=""
                     />
                 </div>
@@ -678,7 +678,7 @@ get_header();
                 <div class="cloth">
                     <img
                       class="cloth__img"
-                      src="../wp-content/themes/noproblem/library/images/item/tshirt32/10blue_1.jpg"
+                      src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/10blue_1.jpg"
                       alt=""
                     />
                 </div>
@@ -695,7 +695,7 @@ get_header();
                 <div class="cloth">
                     <img
                       class="cloth__img"
-                      src="../wp-content/themes/noproblem/library/images/item/tshirt32/11gray_1.jpg"
+                      src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/11gray_1.jpg"
                       alt=""
                     />
                 </div>
@@ -712,7 +712,7 @@ get_header();
                 <div class="cloth">
                     <img
                       class="cloth__img"
-                      src="../wp-content/themes/noproblem/library/images/item/tshirt32/12navy_1.jpg"
+                      src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/12navy_1.jpg"
                       alt=""
                     />
                 </div>
@@ -729,7 +729,7 @@ get_header();
                 <div class="cloth">
                     <img
                       class="cloth__img"
-                      src="../wp-content/themes/noproblem/library/images/item/tshirt32/13black_1.jpg"
+                      src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/13black_1.jpg"
                       alt=""
                     />
                 </div>
@@ -746,7 +746,7 @@ get_header();
                 <div class="cloth">
                     <img
                       class="cloth__img"
-                      src="../wp-content/themes/noproblem/library/images/item/tshirt32/12top_1.jpg"
+                      src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/12top_1.jpg"
                       alt=""
                     />
                 </div>
@@ -799,7 +799,7 @@ get_header();
               <div class="cloth">
                   <img
                     class="cloth__img"
-                    src="../wp-content/themes/noproblem/library/images/item/vtshirt0020/1white_1.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/item/vtshirt0020/1white_1.jpg"
                     alt=""
                   />
               </div>
@@ -816,7 +816,7 @@ get_header();
               <div class="cloth">
                   <img
                     class="cloth__img"
-                    src="../wp-content/themes/noproblem/library/images/item/vtshirt0020/2top_1.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/item/vtshirt0020/2top_1.jpg"
                     alt=""
                   />
               </div>
@@ -833,7 +833,7 @@ get_header();
               <div class="cloth">
                   <img
                     class="cloth__img"
-                    src="../wp-content/themes/noproblem/library/images/item/vtshirt0020/3black_1.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/item/vtshirt0020/3black_1.jpg"
                     alt=""
                   />
               </div>
@@ -882,7 +882,7 @@ get_header();
                 <div class="cloth">
                     <img
                       class="cloth__img"
-                      src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/1white_f_1.jpg"
+                      src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/1white_f_1.jpg"
                       alt=""
                     />
                 </div>
@@ -899,7 +899,7 @@ get_header();
                 <div class="cloth">
                     <img
                       class="cloth__img"
-                      src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/2yellow_topaz_f_1.jpg"
+                      src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/2yellow_topaz_f_1.jpg"
                       alt=""
                     />
                 </div>
@@ -916,7 +916,7 @@ get_header();
                 <div class="cloth">
                     <img
                       class="cloth__img"
-                      src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/3orange_songea_f_1.jpg"
+                      src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/3orange_songea_f_1.jpg"
                       alt=""
                     />
                 </div>
@@ -933,7 +933,7 @@ get_header();
                 <div class="cloth">
                     <img
                       class="cloth__img"
-                      src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/4pink_diamond_f_1.jpg"
+                      src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/4pink_diamond_f_1.jpg"
                       alt=""
                     />
                 </div>
@@ -950,7 +950,7 @@ get_header();
                 <div class="cloth">
                     <img
                       class="cloth__img"
-                      src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/5red_garnet_f_1.jpg"
+                      src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/5red_garnet_f_1.jpg"
                       alt=""
                     />
                 </div>
@@ -967,7 +967,7 @@ get_header();
                 <div class="cloth">
                     <img
                       class="cloth__img"
-                      src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/6amethyst_f_1.jpg"
+                      src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/6amethyst_f_1.jpg"
                       alt=""
                     />
                 </div>
@@ -984,7 +984,7 @@ get_header();
                 <div class="cloth">
                     <img
                       class="cloth__img"
-                      src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/7blue_sapphire_f_1.jpg"
+                      src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/7blue_sapphire_f_1.jpg"
                       alt=""
                     />
                 </div>
@@ -1001,7 +1001,7 @@ get_header();
                 <div class="cloth">
                     <img
                       class="cloth__img"
-                      src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/8green_peridot_f_1.jpg"
+                      src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/8green_peridot_f_1.jpg"
                       alt=""
                     />
                 </div>
@@ -1018,7 +1018,7 @@ get_header();
                 <div class="cloth">
                     <img
                       class="cloth__img"
-                      src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/9blue_topaz_f_1.jpg"
+                      src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/9blue_topaz_f_1.jpg"
                       alt=""
                     />
                 </div>
@@ -1035,7 +1035,7 @@ get_header();
                 <div class="cloth">
                     <img
                       class="cloth__img"
-                      src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/10gray_melange_f_1.jpg"
+                      src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/10gray_melange_f_1.jpg"
                       alt=""
                     />
                 </div>
@@ -1052,7 +1052,7 @@ get_header();
                 <div class="cloth">
                     <img
                       class="cloth__img"
-                      src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/11dark_navy_blue_f_1.jpg"
+                      src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/11dark_navy_blue_f_1.jpg"
                       alt=""
                     />
                 </div>
@@ -1069,7 +1069,7 @@ get_header();
                 <div class="cloth">
                     <img
                       class="cloth__img"
-                      src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/12black_f_1.jpg"
+                      src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/12black_f_1.jpg"
                       alt=""
                     />
                 </div>
@@ -1123,7 +1123,7 @@ get_header();
                   <div class="cloth">
                       <img
                         class="cloth__img"
-                        src="../wp-content/themes/noproblem/library/images/item/polo_mf/male/1white_m_1.jpg"
+                        src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/male/1white_m_1.jpg"
                         alt=""
                       />
                   </div>
@@ -1140,7 +1140,7 @@ get_header();
                   <div class="cloth">
                       <img
                         class="cloth__img"
-                        src="../wp-content/themes/noproblem/library/images/item/polo_mf/male/2yellow_topaz_m_1.jpg"
+                        src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/male/2yellow_topaz_m_1.jpg"
                         alt=""
                       />
                   </div>
@@ -1157,7 +1157,7 @@ get_header();
                   <div class="cloth">
                       <img
                         class="cloth__img"
-                        src="../wp-content/themes/noproblem/library/images/item/polo_mf/male/3orange_songea_m_1.jpg"
+                        src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/male/3orange_songea_m_1.jpg"
                         alt=""
                       />
                   </div>
@@ -1174,7 +1174,7 @@ get_header();
                   <div class="cloth">
                       <img
                         class="cloth__img"
-                        src="../wp-content/themes/noproblem/library/images/item/polo_mf/male/4pink_diamond_m_1.jpg"
+                        src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/male/4pink_diamond_m_1.jpg"
                         alt=""
                       />
                   </div>
@@ -1191,7 +1191,7 @@ get_header();
                   <div class="cloth">
                       <img
                         class="cloth__img"
-                        src="../wp-content/themes/noproblem/library/images/item/polo_mf/male/5red_garnet_m_1.jpg"
+                        src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/male/5red_garnet_m_1.jpg"
                         alt=""
                       />
                   </div>
@@ -1208,7 +1208,7 @@ get_header();
                   <div class="cloth">
                       <img
                         class="cloth__img"
-                        src="../wp-content/themes/noproblem/library/images/item/polo_mf/male/6amethyst_m_1.jpg"
+                        src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/male/6amethyst_m_1.jpg"
                         alt=""
                       />
                   </div>
@@ -1225,7 +1225,7 @@ get_header();
                   <div class="cloth">
                       <img
                         class="cloth__img"
-                        src="../wp-content/themes/noproblem/library/images/item/polo_mf/male/7blue_sapphire_m_1.jpg"
+                        src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/male/7blue_sapphire_m_1.jpg"
                         alt=""
                       />
                   </div>
@@ -1242,7 +1242,7 @@ get_header();
                   <div class="cloth">
                       <img
                         class="cloth__img"
-                        src="../wp-content/themes/noproblem/library/images/item/polo_mf/male/8green_peridot_m_1.jpg"
+                        src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/male/8green_peridot_m_1.jpg"
                         alt=""
                       />
                   </div>
@@ -1259,7 +1259,7 @@ get_header();
                   <div class="cloth">
                       <img
                         class="cloth__img"
-                        src="../wp-content/themes/noproblem/library/images/item/polo_mf/male/9blue_topaz_m_1.jpg"
+                        src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/male/9blue_topaz_m_1.jpg"
                         alt=""
                       />
                   </div>
@@ -1276,7 +1276,7 @@ get_header();
                   <div class="cloth">
                       <img
                         class="cloth__img"
-                        src="../wp-content/themes/noproblem/library/images/item/polo_mf/male/10gray_melange_m_1.jpg"
+                        src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/male/10gray_melange_m_1.jpg"
                         alt=""
                       />
                   </div>
@@ -1293,7 +1293,7 @@ get_header();
                   <div class="cloth">
                       <img
                         class="cloth__img"
-                        src="../wp-content/themes/noproblem/library/images/item/polo_mf/male/11dark_navy_blue_m_1.jpg"
+                        src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/male/11dark_navy_blue_m_1.jpg"
                         alt=""
                       />
                   </div>
@@ -1310,7 +1310,7 @@ get_header();
                   <div class="cloth">
                       <img
                         class="cloth__img"
-                        src="../wp-content/themes/noproblem/library/images/item/polo_mf/male/12black_m_1.jpg"
+                        src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/male/12black_m_1.jpg"
                         alt=""
                       />
                   </div>

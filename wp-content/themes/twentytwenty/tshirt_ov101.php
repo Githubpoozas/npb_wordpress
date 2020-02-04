@@ -7,7 +7,7 @@
     <!-- header banner -->
     <div class="header__bannerGray">
       <img
-        src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
+        src="<?php echo get_template_directory_uri(); ?>/assets/images/noproblem_logo.svg"
         alt="logo"
         class="header__bannerGray-logo"
       />
@@ -22,22 +22,22 @@ get_header();
         <div class="swiper-container gallery-thumbs detail-thumb">
           <div class="swiper-wrapper detail-thumb__wrapper">
             <div class="swiper-slide detail-thumb__slide">
-              <img src="../wp-content/themes/noproblem/library/images/item/tshirt32/1white_1.jpg" alt="" />
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/1white_1.jpg" alt="" />
             </div>
             <div class="swiper-slide detail-thumb__slide">
-              <img src="../wp-content/themes/noproblem/library/images/item/tshirt32/2yellow_1.jpg" alt="" />
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/2yellow_1.jpg" alt="" />
             </div>
             <div class="swiper-slide detail-thumb__slide">
-              <img src="../wp-content/themes/noproblem/library/images/item/tshirt32/3caramel_1.jpg" alt="" />
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/3caramel_1.jpg" alt="" />
             </div>
             <div class="swiper-slide detail-thumb__slide">
-              <img src="../wp-content/themes/noproblem/library/images/item/tshirt32/4orange_1.jpg" alt="" />
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/4orange_1.jpg" alt="" />
             </div>
             <div class="swiper-slide detail-thumb__slide">
-              <img src="../wp-content/themes/noproblem/library/images/item/tshirt32/5pink_1.jpg" alt="" />
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/5pink_1.jpg" alt="" />
             </div>
             <div class="swiper-slide detail-thumb__slide">
-              <img src="../wp-content/themes/noproblem/library/images/item/tshirt32/6red_1.jpg" alt="" />
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/6red_1.jpg" alt="" />
             </div>
           </div>
         </div>
@@ -46,32 +46,32 @@ get_header();
           <div class="swiper-wrapper detail-top__wrapper">
             <div class="swiper-slide detail-top__slide">
               <img
-                src="../wp-content/themes/noproblem/library/images/item/tshirt32/1white_1.jpg"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/1white_1.jpg"
                 alt=""/>
             </div>
             <div class="swiper-slide detail-top__slide">
               <img
-                src="../wp-content/themes/noproblem/library/images/item/tshirt32/2yellow_1.jpg"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/2yellow_1.jpg"
                 alt=""/>
             </div>
             <div class="swiper-slide detail-top__slide">
               <img
-                src="../wp-content/themes/noproblem/library/images/item/tshirt32/3caramel_1.jpg"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/3caramel_1.jpg"
                 alt=""/>
             </div>
             <div class="swiper-slide detail-top__slide">
               <img
-                src="../wp-content/themes/noproblem/library/images/item/tshirt32/4orange_1.jpg"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/4orange_1.jpg"
                 alt=""/>
             </div>
             <div class="swiper-slide detail-top__slide">
               <img
-                src="../wp-content/themes/noproblem/library/images/item/tshirt32/5pink_1.jpg"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/5pink_1.jpg"
                 alt=""/>
             </div>
             <div class="swiper-slide detail-top__slide">
               <img
-                src="../wp-content/themes/noproblem/library/images/item/tshirt32/6red_1.jpg"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/6red_1.jpg"
                 alt=""/>
             </div>
           </div>
@@ -233,55 +233,55 @@ get_header();
 
       <section class="item__section-color u-margin-bottom-medium">
         <div class="item__front">
-        <img src="../wp-content/themes/noproblem/library/images/item/tshirt32/1white_1.jpg" alt="" /></div>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/1white_1.jpg" alt="" /></div>
         <div class="item__back">
-          <img src="../wp-content/themes/noproblem/library/images/item/tshirt32/1white_2.jpg" alt="" />
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/1white_2.jpg" alt="" />
         </div>
 
         <div class="item__color">
           <div
             class="item__color-picker">
-          <img src="../wp-content/themes/noproblem/library/images/item/tshirt32/1white_1.jpg" alt="" />
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/1white_1.jpg" alt="" />
         </div>
           <div class="item__color-picker">
-            <img src="../wp-content/themes/noproblem/library/images/item/tshirt32/2yellow_1.jpg" alt="" />
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/2yellow_1.jpg" alt="" />
           </div>
           <div class="item__color-picker">
-            <img src="../wp-content/themes/noproblem/library/images/item/tshirt32/3caramel_1.jpg" alt="" />
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/3caramel_1.jpg" alt="" />
           </div>
           <div
             class="item__color-picker">
-          <img src="../wp-content/themes/noproblem/library/images/item/tshirt32/4orange_1.jpg" alt="" />
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/4orange_1.jpg" alt="" />
         </div>
           <div
-            class="item__color-picker"><img src="../wp-content/themes/noproblem/library/images/item/tshirt32/5pink_1.jpg" alt="" />
+            class="item__color-picker"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/5pink_1.jpg" alt="" />
         </div>
           <div
-            class="item__color-picker"><img src="../wp-content/themes/noproblem/library/images/item/tshirt32/6red_1.jpg" alt="" />
+            class="item__color-picker"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/6red_1.jpg" alt="" />
         </div>
           <div
-            class="item__color-picker"> <img src="../wp-content/themes/noproblem/library/images/item/tshirt32/7maroon_1.jpg" alt="" />
+            class="item__color-picker"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/7maroon_1.jpg" alt="" />
         </div>
           <div
-            class="item__color-picker"> <img src="../wp-content/themes/noproblem/library/images/item/tshirt32/8deep_blue_1.jpg" alt="" />
+            class="item__color-picker"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/8deep_blue_1.jpg" alt="" />
         </div>
           <div
-            class="item__color-picker"> <img src="../wp-content/themes/noproblem/library/images/item/tshirt32/9mint_1.jpg" alt="" />
+            class="item__color-picker"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/9mint_1.jpg" alt="" />
         </div>
           <div
-            class="item__color-picker"> <img src="../wp-content/themes/noproblem/library/images/item/tshirt32/10blue_1.jpg" alt="" />
+            class="item__color-picker"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/10blue_1.jpg" alt="" />
         </div>
           <div
-            class="item__color-picker"> <img src="../wp-content/themes/noproblem/library/images/item/tshirt32/11gray_1.jpg" alt="" />
+            class="item__color-picker"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/11gray_1.jpg" alt="" />
         </div>
           <div
-            class="item__color-picker"> <img src="../wp-content/themes/noproblem/library/images/item/tshirt32/12navy_1.jpg" alt="" />
+            class="item__color-picker"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/12navy_1.jpg" alt="" />
         </div>
           <div
-            class="item__color-picker"><img src="../wp-content/themes/noproblem/library/images/item/tshirt32/13black_1.jpg" alt="" />
+            class="item__color-picker"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/13black_1.jpg" alt="" />
         </div>
         <div
-        class="item__color-picker"><img src="../wp-content/themes/noproblem/library/images/item/tshirt32/12top_1.jpg" alt="" />
+        class="item__color-picker"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/tshirt32/12top_1.jpg" alt="" />
     </div>
  
         </div>

@@ -7,7 +7,7 @@
     <!-- header banner -->
     <div class="header__bannerGray">
       <img
-        src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
+        src="<?php echo get_template_directory_uri(); ?>/assets/images/noproblem_logo.svg"
         alt="logo"
         class="header__bannerGray-logo"
       />
@@ -22,22 +22,22 @@ get_header();
         <div class="swiper-container gallery-thumbs detail-thumb">
           <div class="swiper-wrapper detail-thumb__wrapper">
             <div class="swiper-slide detail-thumb__slide">
-              <img src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/1white_f_1.jpg" alt="" />
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/1white_f_1.jpg" alt="" />
             </div>
             <div class="swiper-slide detail-thumb__slide">
-              <img src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/2yellow_topaz_f_1.jpg" alt="" />
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/2yellow_topaz_f_1.jpg" alt="" />
             </div>
             <div class="swiper-slide detail-thumb__slide">
-              <img src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/3orange_songea_f_1.jpg" alt="" />
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/3orange_songea_f_1.jpg" alt="" />
             </div>
             <div class="swiper-slide detail-thumb__slide">
-              <img src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/4pink_diamond_f_1.jpg" alt="" />
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/4pink_diamond_f_1.jpg" alt="" />
             </div>
             <div class="swiper-slide detail-thumb__slide">
-              <img src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/5red_garnet_f_1.jpg" alt="" />
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/5red_garnet_f_1.jpg" alt="" />
             </div>
             <div class="swiper-slide detail-thumb__slide">
-              <img src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/6amethyst_f_1.jpg" alt="" />
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/6amethyst_f_1.jpg" alt="" />
             </div>
           </div>
         </div>
@@ -45,22 +45,22 @@ get_header();
         <div class="swiper-container gallery-top detail-top">
           <div class="swiper-wrapper detail-top__wrapper">
             <div class="swiper-slide detail-top__slide">
-              <img src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/1white_f_1.jpg" alt="" />
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/1white_f_1.jpg" alt="" />
             </div>
             <div class="swiper-slide detail-top__slide">
-              <img src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/2yellow_topaz_f_1.jpg" alt="" />
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/2yellow_topaz_f_1.jpg" alt="" />
             </div>
             <div class="swiper-slide detail-top__slide">
-              <img src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/3orange_songea_f_1.jpg" alt="" />
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/3orange_songea_f_1.jpg" alt="" />
             </div>
             <div class="swiper-slide detail-top__slide">
-              <img src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/4pink_diamond_f_1.jpg" alt="" />
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/4pink_diamond_f_1.jpg" alt="" />
             </div>
             <div class="swiper-slide detail-top__slide">
-              <img src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/5red_garnet_f_1.jpg" alt="" />
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/5red_garnet_f_1.jpg" alt="" />
             </div>
             <div class="swiper-slide detail-top__slide">
-              <img src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/6amethyst_f_1.jpg" alt="" />
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/6amethyst_f_1.jpg" alt="" />
             </div>
           </div>
         </div>
@@ -221,48 +221,48 @@ get_header();
 
       <section class="item__section-color ">
         <div class="item__front">
-          <img src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/1white_f_1.jpg" alt="" />
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/1white_f_1.jpg" alt="" />
         </div>
         <div class="item__back">
-          <img src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/1white_f_2.jpg" alt="" />
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/1white_f_2.jpg" alt="" />
         </div>
 
         <div class="item__color">
           <div class="item__color-picker">
-            <img src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/1white_f_1.jpg" alt="" />
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/1white_f_1.jpg" alt="" />
           </div>
           <div class="item__color-picker">
-            <img src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/2yellow_topaz_f_1.jpg" alt="" />
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/2yellow_topaz_f_1.jpg" alt="" />
           </div>
           <div class="item__color-picker">
-            <img src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/3orange_songea_f_1.jpg" alt="" />
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/3orange_songea_f_1.jpg" alt="" />
           </div>
           <div class="item__color-picker">
-            <img src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/4pink_diamond_f_1.jpg" alt="" />
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/4pink_diamond_f_1.jpg" alt="" />
           </div>
           <div class="item__color-picker">
-            <img src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/5red_garnet_f_1.jpg" alt="" />
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/5red_garnet_f_1.jpg" alt="" />
           </div>
           <div class="item__color-picker">
-            <img src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/6amethyst_f_1.jpg" alt="" />
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/6amethyst_f_1.jpg" alt="" />
           </div>
           <div class="item__color-picker">
-            <img src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/7blue_sapphire_f_1.jpg" alt="" />
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/7blue_sapphire_f_1.jpg" alt="" />
           </div>
           <div class="item__color-picker">
-            <img src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/8green_peridot_f_1.jpg" alt="" />
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/8green_peridot_f_1.jpg" alt="" />
           </div>
           <div class="item__color-picker">
-            <img src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/9blue_topaz_f_1.jpg" alt="" />
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/9blue_topaz_f_1.jpg" alt="" />
           </div>
           <div class="item__color-picker">
-            <img src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/10gray_melange_f_1.jpg" alt="" />
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/10gray_melange_f_1.jpg" alt="" />
           </div>
           <div class="item__color-picker">
-            <img src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/11dark_navy_blue_f_1.jpg" alt="" />
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/11dark_navy_blue_f_1.jpg" alt="" />
           </div>
           <div class="item__color-picker">
-            <img src="../wp-content/themes/noproblem/library/images/item/polo_mf/female/12black_f_1.jpg" alt="" />
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/polo_mf/female/12black_f_1.jpg" alt="" />
           </div>
         </div>
       </section>

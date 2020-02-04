@@ -37,5 +37,4 @@ jQuery(document).ready(function() {
     
 
   })
-console.log('socialmedia loaded')
 });

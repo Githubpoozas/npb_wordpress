@@ -7,7 +7,7 @@
     <!-- header banner -->
     <div class="header__bannerGray">
       <img
-        src="../wp-content/themes/noproblem/library/images/noproblem_logo.svg"
+        src="<?php echo get_template_directory_uri(); ?>/assets/images/noproblem_logo.svg"
         alt="logo"
         class="header__bannerGray-logo"
       />
@@ -21,13 +21,13 @@ get_header();
         <div class="swiper-container gallery-thumbs detail-thumb">
           <div class="swiper-wrapper detail-thumb__wrapper">
             <div class="swiper-slide detail-thumb__slide">
-              <img src="../wp-content/themes/noproblem/library/images/item/vtshirt0020/1white_1.jpg" alt="" />
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/vtshirt0020/1white_1.jpg" alt="" />
             </div>
             <div class="swiper-slide detail-thumb__slide">
-              <img src="../wp-content/themes/noproblem/library/images/item/vtshirt0020/2top_1.jpg" alt="" />
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/vtshirt0020/2top_1.jpg" alt="" />
             </div>
             <div class="swiper-slide detail-thumb__slide">
-              <img src="../wp-content/themes/noproblem/library/images/item/vtshirt0020/3black_1.jpg" alt="" />
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/vtshirt0020/3black_1.jpg" alt="" />
             </div>
             </div>
         </div>
@@ -36,17 +36,17 @@ get_header();
           <div class="swiper-wrapper detail-top__wrapper">
             <div class="swiper-slide detail-top__slide">
               <img
-                src="../wp-content/themes/noproblem/library/images/item/vtshirt0020/1white_1.jpg"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/item/vtshirt0020/1white_1.jpg"
                 alt=""/>
             </div>
             <div class="swiper-slide detail-top__slide">
               <img
-                src="../wp-content/themes/noproblem/library/images/item/vtshirt0020/2top_1.jpg"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/item/vtshirt0020/2top_1.jpg"
                 alt=""/>
             </div>
             <div class="swiper-slide detail-top__slide">
               <img
-                src="../wp-content/themes/noproblem/library/images/item/vtshirt0020/3black_1.jpg"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/item/vtshirt0020/3black_1.jpg"
                 alt=""/>
             </div>
             </div>
@@ -208,21 +208,21 @@ get_header();
 
       <section class="item__section-color">
         <div class="item__front">
-        <img src="../wp-content/themes/noproblem/library/images/item/vtshirt0020/1white_1.jpg" alt="" /></div>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/vtshirt0020/1white_1.jpg" alt="" /></div>
         <div class="item__back">
-          <img src="../wp-content/themes/noproblem/library/images/item/vtshirt0020/1white_2.jpg" alt="" />
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/vtshirt0020/1white_2.jpg" alt="" />
         </div>
 
         <div class="item__color">
           <div
             class="item__color-picker">
-          <img src="../wp-content/themes/noproblem/library/images/item/vtshirt0020/1white_1.jpg" alt="" />
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/vtshirt0020/1white_1.jpg" alt="" />
         </div>
           <div class="item__color-picker">
-            <img src="../wp-content/themes/noproblem/library/images/item/vtshirt0020/2top_1.jpg" alt="" />
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/vtshirt0020/2top_1.jpg" alt="" />
           </div>
           <div class="item__color-picker">
-            <img src="../wp-content/themes/noproblem/library/images/item/vtshirt0020/3black_1.jpg" alt="" />
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item/vtshirt0020/3black_1.jpg" alt="" />
           </div>
          
  
